@@ -1,0 +1,1574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Spreadsheet Page
+</title>
+        <link href="/ParagonLS/scripts/packages/Modulecss?v=1kb-vmkfjvv6YOKnwUVRW58PMy6IzyD6xVdLAwGYOTU1" rel="stylesheet"/>
+        <link href="/ParagonLS/Content/Themes/Default/Modulecss?v=3095174" rel="stylesheet" type="text/css"/>
+        <link href="/ParagonLS/Content/fontawesome/css/all.min.css?v=3095174" rel="stylesheet" type="text/css"/>
+        <link href="/ParagonLS/scripts/packages/Reportcss?v=_ZJVpA6GxrxIv2pOBDKZ4f3hVbbUmjsz1ZQotQSmE6E1" rel="stylesheet"/>
+        <style type="text/css">
+            body {
+                line-height: 1;
+            }
+        </style>
+        <style media="Print" type="text/css">
+            .PageBreakBefore {
+                height: 1px;
+                page-break-before: always;
+            }
+
+            .hideWhenPrinted {
+                display: none;
+            }
+
+            .transparentWhenPrinted {
+                color: #D3D3D3 !important
+            }
+
+            a:link, a:visited {
+                content: normal !important;
+                color: black;
+                text-decoration: none;
+            }
+
+            @page {
+                margin: 0.25in 0.25in 0.25in 0.25in;
+                size: 8.5in 11in;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact;
+            }
+        </style>
+        <style media="Screen" type="text/css">
+            body {
+                overflow: hidden;
+                height: 100%;
+            }
+
+            html {
+                height: 100%;
+            }
+
+            #divHtmlReport {
+                overflow: auto;
+                height: 100% !important;
+            }
+
+            .imageLabelContainer {
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            .imageLabel {
+                text-overflow: ellipsis;
+                font-family: Tahoma;
+                font-size: 11px;
+                color: white;
+                background-color: black;
+                opacity: .60;
+                padding: 1px 6px;
+                width: auto;
+                display: inline-block;
+            }
+
+            .imageSpinnerTable {
+                background-color: black;
+                opacity: .60;
+                color: white;
+                height: 14px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .imageSpinnerTable td {
+                white-space: nowrap;
+            }
+
+            .imageSpinner {
+                display: inline-block;
+                cursor: pointer;
+                background-image: url('/ParagonLS/Content/images/ActionBar/action-sprite.png');
+                height: 13px;
+                width: 13px;
+                margin: 0 4px;
+                background-repeat: no-repeat;
+            }
+
+            .imageSpinnerPrev {
+                background-position: -94px -2005px;
+            }
+
+            .imageSpinnerNext {
+                background-position: -120px -2005px;
+            }
+
+            body {
+                background-color: White;
+            }
+
+            .hide {
+                display: none;
+            }
+
+            .ad-content {
+                width: 1100px;
+            }
+
+            .adList {
+                left: 805px;
+                z-index: 1;
+            }
+
+            @media (max-width: 1024px) {
+                .adList {
+                    position: relative;
+                    left: -24px;
+                }
+            }
+        </style>
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+        <script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-HDYX18YMCK"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            console.log('gtag', 'G-HDYX18YMCK');
+            gtag('config', 'G-HDYX18YMCK');
+            console.log('window.dataLayer', window.dataLayer);
+        </script>
+    </head>
+    <body>
+        <div style="display: none;">
+            <a id="datePickCal" class="ui-corner-all ui-state-default" style="cursor:pointer" href="javascript:;" title="Select Date">
+                <span class="ui-icon ui-icon-calendar"></span>
+            </a>
+        </div>
+        <input name="__RequestVerificationToken" type="hidden" value="7ktdY4HpHhEYDaUmue081lM1N7TaYql7czqEqxHcEtydfinKDvK3f4k5Q9VpD07JRkGygJAS6Y_kgDTjqqb3YjehSDPx0ajBjenMZerde701"/>
+        <div id="divHtmlReport" style="position:relative;height:960px">
+            <div style="position:relative;height:993px">
+                <div>&nbsp;</div>
+                <div style="left:0px;width:765px;border-top-width:1px;height:16px;border-bottom-width:1px;top:0px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls190"></div>
+                <div style="top:984px;left:682px;width:89px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:89px;height:22px;" class="mls191">Agent Detail 3.0</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="top:984px;left:111px;width:567px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:567px;height:22px;" class="mls192">INFORMATION HEREIN DEEMED RELIABLE BUT NOT GUARANTEED</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="top:984px;left:0px;width:110px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:110px;height:22px;" class="mls193">11/30/2023</td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="left:0px;width:764px;border-top-width:1px;height:50px;border-bottom-width:1px;top:191px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls2"></div>
+                <div style="left:2px;width:762px;border-top-width:1px;height:87px;border-bottom-width:1px;top:730px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls2"></div>
+                <div style="left:0px;width:764px;border-top-width:1px;height:119px;border-bottom-width:1px;top:339px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls194"></div>
+                <div style="left:0px;width:763px;border-top-width:1px;height:54px;border-bottom-width:1px;top:925px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls73"></div>
+                <div style="left:414px;width:148px;border-top-width:1px;height:119px;border-bottom-width:1px;top:339px;border-color:#000000;border-right-width:1px;border-style:Solid;border-left-width:1px;" id="" class="mls73"></div>
+                <div style="padding-bottom:0px;left:4px;text-align:Center;width:212px;z-index:1;height:157px;position:absolute;top:24px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <img src="//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/0/640/480/d6a061fab2cdd51e86a74337df64d5f0/1/1071b6b2e7a7ecd86d82349862e534a0/225266254.JPG" id="img0" popupImage="" listingID="225266254" width="640" rel="slideshow0" class="listingImage" height="480" data-display-id="E4353434" style="border:none;cursor:pointer;" hideAddressBar="False" firstImage="1" fullWindow="False"/>
+                    <input name="aryPicDataSpinner0" type="hidden" id="aryPicDataSpinner0" value="//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/0/640/480/d6a061fab2cdd51e86a74337df64d5f0/1/1071b6b2e7a7ecd86d82349862e534a0/225266254.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/1/640/480/dc47f849aeb9284531c3d16695a1fba5/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-1.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/2/640/480/910808180b42519ec55c3dfab0023b12/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-2.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/3/640/480/8260dcd30309ea627ceca31bd23ccd77/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-3.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/4/640/480/8769e7e5b59c9ee4a4d4d32e8325707f/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-4.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/5/640/480/bce7b85ad1c7fd3e707c7cfa26737690/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-5.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/6/640/480/abe2c14166446894f430e431ac8a0888/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-6.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/7/640/480/969c0dc623b767eb5b6300da462a8450/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-7.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/8/640/480/12e489a83a488cfaf0f336d7d7fe3b30/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-8.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/9/640/480/5adc7f968eeeb06688b678ce1f172e15/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-9.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/10/640/480/159336fe75821d82abf27d2ff6ac0f18/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-10.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/11/640/480/2ea1c8158b04b1eb0283d085178375ef/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-11.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/12/640/480/80a29c0dd175900b374884ae112f619f/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-12.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/13/640/480/94cb9c40ee83fc195167c4e2be4d4329/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-13.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/14/640/480/130300a1dc9b8394a131433a4f8c69fd/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-14.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/15/640/480/3bc0a0d0be6daa64da83747f1cefc0a6/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-15.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/16/640/480/e8c2d15f2a92a00a2be5604038aba30f/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-16.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/17/640/480/30bf04e29a966fbf22222c2f3a34aefd/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-17.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/18/640/480/78ebc1479e88ba2c4abaf6d1e80e24ad/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-18.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/19/640/480/64238b942b3d79799e9e63dbb0d20228/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-19.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/20/640/480/90b9063fdb025fca3c0beb20d2724d4e/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-20.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/21/640/480/18d6252585205d15f8c9b3a7b232c639/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-21.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/22/640/480/e33807515aa768ea9b8def51762b28ae/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-22.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/23/640/480/9ac5bab4e7132aec43f4d43ee350543d/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-23.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/24/640/480/7222d84c2271eb24e69113363d9ab115/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-24.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/25/640/480/ebaa891570baca772b1c99240309036f/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-25.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/26/640/480/b702cf9083f4758a8170f30980add901/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-26.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/27/640/480/9bb4c5e9668b2f5bf72d02ad8deb24eb/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-27.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/28/640/480/9937ec6b1c68b512e6cfe76f487f0300/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-28.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/29/640/480/21d06785c16e986920df14d3bd951418/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-29.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/30/640/480/2ef842707ddc20dc5934170ac9342b81/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-30.JPG,//cdnparap130.paragonrels.com/ParagonImages/Property/p13/RAE/225266254/31/640/480/41ca874eb82c8463cf4beae56115238e/1/1071b6b2e7a7ecd86d82349862e534a0/225266254-31.JPG"/>
+                    <input name="aryPicDataPopup0" type="hidden" id="aryPicDataPopup0" value="/ParagonLS/Files/ListingPictures/RAE/images/324/225266254.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-1.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-2.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-3.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-4.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-5.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-6.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-7.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-8.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-9.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-10.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-11.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-12.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-13.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-14.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-15.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-16.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-17.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-18.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-19.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-20.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-21.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-22.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-23.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-24.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-25.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-26.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-27.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-28.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-29.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-30.JPG,/ParagonLS/Files/ListingPictures/RAE/addl_picts/324/225266254-31.JPG"/>
+                    <div style="position:absolute;top:142px;left:0px;width:212px;padding-top:0px;padding-left:0px;padding-right:0px;padding-bottom:0px;">
+                        <table class="imageSpinnerTable hideWhenPrinted ui-corner-top noSelect" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+                            <tr align="center">
+                                <td>
+                                    <span rel="0" class="imageSpinner imageSpinnerPrev"></span>
+                                    <span id="spnCurImg0" style="font-family:Tahoma;font-size:11px;">1</span>
+                                    <span style="font-family:Tahoma;font-size:11px;">&nbsp;of &nbsp;</span>
+                                    <span id="spnTotImg0" style="font-family:Tahoma;font-size:11px;">32</span>
+                                    <span class="imageSpinner imageSpinnerNext" rel="0"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div style="top:1px;left:719px;width:24px;height:16px;" id="" class="mls195">(LP)</div>
+                <div style="top:445px;left:576px;width:68px;height:14px;" id="" class="mls74">Finished Lvls</div>
+                <div style="top:340px;left:576px;width:68px;height:14px;" id="" class="mls196">Level</div>
+                <div style="top:340px;left:650px;width:50px;height:14px;" id="" class="mls197">SqM</div>
+                <div style="top:340px;left:706px;width:50px;height:14px;" id="" class="mls197">SqFt</div>
+                <div style="top:340px;left:4px;width:90px;height:14px;" id="" class="mls74">Living Room</div>
+                <div style="top:355px;left:4px;width:90px;height:14px;" id="" class="mls74">Dining Room</div>
+                <div style="top:370px;left:4px;width:90px;height:14px;" id="" class="mls74">Kitchen</div>
+                <div style="top:385px;left:4px;width:90px;height:14px;" id="" class="mls74">Family Room</div>
+                <div style="top:175px;left:453px;width:85px;height:14px;" id="" class="mls74">Add &#39;l Rms</div>
+                <div style="top:160px;left:453px;width:85px;height:14px;" id="" class="mls74">Beds/Beds Ab.</div>
+                <div style="top:355px;left:576px;width:68px;height:14px;" id="" class="mls79">Main Level</div>
+                <div style="top:430px;left:4px;width:90px;height:14px;" id="" class="mls74">Primary Bedroom</div>
+                <div style="top:445px;left:4px;width:90px;height:14px;" id="" class="mls74">Bedroom 2</div>
+                <div style="top:340px;left:206px;width:90px;height:14px;" id="" class="mls74">Bedroom 3</div>
+                <div style="top:355px;left:206px;width:90px;height:14px;" id="" class="mls74">Bedroom 4</div>
+                <div style="top:415px;left:4px;width:90px;height:14px;" id="" class="mls74">Bonus Room</div>
+                <div style="top:370px;left:576px;width:68px;height:14px;" id="" class="mls79">Upper</div>
+                <div style="top:385px;left:576px;width:68px;height:14px;" id="" class="mls79">Above Grade</div>
+                <div style="top:400px;left:576px;width:68px;height:14px;" id="" class="mls79">Lower Level</div>
+                <div style="top:415px;left:576px;width:68px;height:14px;" id="" class="mls79">Below Grade</div>
+                <div style="top:430px;left:576px;width:68px;height:14px;" id="" class="mls79">Total A.G.</div>
+                <div style="top:25px;left:224px;width:75px;height:14px;" id="" class="mls74">Area/City</div>
+                <div style="top:40px;left:224px;width:75px;height:14px;" id="" class="mls77">Community</div>
+                <div style="top:85px;left:224px;width:75px;height:14px;" id="" class="mls77">Building Type</div>
+                <div style="top:115px;left:224px;width:75px;height:14px;" id="" class="mls77">Style</div>
+                <div style="top:130px;left:224px;width:75px;height:14px;" id="" class="mls77">Plan/Blk/Lot</div>
+                <div style="top:130px;left:352px;width:10px;height:14px;" id="" class="mls198">/</div>
+                <div style="top:130px;left:400px;width:10px;height:14px;" id="" class="mls198">/</div>
+                <div style="top:160px;left:224px;width:75px;height:14px;" id="" class="mls77">Linc #</div>
+                <div style="top:175px;left:224px;width:75px;height:14px;" id="" class="mls77">Title to Land</div>
+                <div style="top:55px;left:453px;width:85px;height:14px;" id="" class="mls74">Time Clse/Hrs</div>
+                <div style="top:55px;left:224px;width:75px;height:14px;" id="" class="mls77">Postal Code</div>
+                <div style="top:70px;left:224px;width:75px;height:14px;" id="" class="mls77">Zone</div>
+                <div style="top:100px;left:224px;width:80px;height:14px;" id="" class="mls77">Yr Built/Eff Yr</div>
+                <div style="top:70px;left:453px;width:85px;height:14px;" id="" class="mls74">Conform Report</div>
+                <div style="top:100px;left:453px;width:85px;height:14px;" id="" class="mls74">Restrictions</div>
+                <div style="top:865px;left:348px;width:68px;height:14px;" id="" class="mls74">Ownership</div>
+                <div style="top:578px;left:494px;width:24px;height:14px;" id="" class="mls77">F/P</div>
+                <div style="top:578px;left:552px;width:44px;height:14px;" id="" class="mls74">F/P Fuel</div>
+                <div style="top:594px;left:494px;width:52px;height:14px;" id="" class="mls74">F/P Type</div>
+                <div style="top:745px;left:398px;width:75px;height:14px;" id="" class="mls22">Unit Exp.</div>
+                <div style="top:460px;left:494px;width:54px;height:14px;" id="" class="mls74">Basement</div>
+                <div style="top:460px;left:612px;width:10px;height:14px;" id="" class="mls12">/</div>
+                <div style="top:475px;left:599px;width:50px;height:14px;" id="" class="mls74">2nd Suite</div>
+                <div style="top:475px;left:686px;width:37px;height:14px;" id="" class="mls74">Permit BySeller</div>
+                <div style="top:520px;left:599px;width:55px;height:14px;" id="" class="mls22">Lot Shape</div>
+                <div style="top:505px;left:686px;width:55px;height:14px;" id="" class="mls22">Front Exp.</div>
+                <div style="top:535px;left:599px;width:55px;height:14px;" id="" class="mls22">F x D (m)</div>
+                <div style="top:520px;left:494px;width:52px;height:14px;" id="" class="mls9">Lot SqM</div>
+                <div style="top:85px;left:453px;width:85px;height:14px;" id="" class="mls74">Tax Amt/Yr</div>
+                <div style="top:55px;left:565px;width:10px;height:14px;" id="" class="mls61">/</div>
+                <div style="top:175px;left:370px;width:40px;height:14px;" id="" class="mls22">Zoning</div>
+                <div style="top:730px;left:4px;width:66px;height:14px;" id="" class="mls74">Condo Name</div>
+                <div style="top:745px;left:4px;width:66px;height:14px;" id="" class="mls74">Condo Fee</div>
+                <div style="top:805px;left:398px;width:75px;height:14px;" id="" class="mls74">Prop Mgmt/#</div>
+                <div style="top:760px;left:4px;width:66px;height:14px;" id="" class="mls74">Fee Includes</div>
+                <div style="top:745px;left:161px;width:49px;height:14px;" id="" class="mls22">Schedule</div>
+                <div style="top:730px;left:657px;width:70px;height:14px;" id="" class="mls9"># Floors Bldg</div>
+                <div style="top:730px;left:398px;width:75px;height:14px;" id="" class="mls9">Floor Location</div>
+                <div style="top:730px;left:553px;width:55px;height:14px;" id="" class="mls22">Floor #</div>
+                <div style="top:620px;left:552px;width:24px;height:14px;" id="" class="mls74">Fee</div>
+                <div style="top:620px;left:634px;width:34px;height:14px;" id="" class="mls74">Sched</div>
+                <div style="top:635px;left:494px;width:52px;height:14px;" id="" class="mls22">Fee Incl</div>
+                <div style="top:760px;left:398px;width:75px;height:14px;" id="" class="mls22">Park Plan</div>
+                <div style="top:760px;left:553px;width:80px;height:14px;" id="" class="mls22">Desc/Unit/UF</div>
+                <div style="top:775px;left:553px;width:55px;height:14px;" id="" class="mls22">Encl. Park</div>
+                <div style="top:760px;left:674px;width:8px;height:14px;" id="" class="mls22">/</div>
+                <div style="top:760px;left:728px;width:8px;height:14px;" id="" class="mls22">/</div>
+                <div style="top:775px;left:398px;width:75px;height:14px;" id="" class="mls22">Stall #</div>
+                <div style="top:790px;left:398px;width:75px;height:14px;" id="" class="mls22">Titled Storage</div>
+                <div style="top:790px;left:553px;width:56px;height:14px;" id="" class="mls74">Strg Unit #</div>
+                <div style="top:745px;left:553px;width:90px;height:14px;" id="" class="mls22">Balcony/Terrace</div>
+                <div style="top:745px;left:681px;width:46px;height:14px;" id="" class="mls77">Elevator</div>
+                <div style="top:805px;left:680px;width:10px;height:14px;" id="" class="mls74">/</div>
+                <div style="top:820px;left:2px;width:70px;height:14px;" id="" class="mls22">Seller Name</div>
+                <div style="top:820px;left:348px;width:68px;height:14px;" id="" class="mls22">Appointment</div>
+                <div style="top:835px;left:2px;width:70px;height:14px;" id="" class="mls22">List Agent 1</div>
+                <div style="top:865px;left:2px;width:70px;height:14px;" id="" class="mls22">List Office 1</div>
+                <div style="top:880px;left:3px;width:70px;height:14px;" id="" class="mls22">List Agent 2</div>
+                <div style="top:895px;left:3px;width:70px;height:14px;" id="" class="mls22">List Office 2</div>
+                <div style="top:820px;left:540px;width:58px;height:14px;" id="" class="mls22">Appt Name</div>
+                <div style="top:835px;left:540px;width:58px;height:14px;" id="" class="mls22">Appt Ph#</div>
+                <div style="top:850px;left:540px;width:58px;height:14px;" id="" class="mls22">Occupancy</div>
+                <div style="top:880px;left:348px;width:68px;height:14px;" id="" class="mls22">Possession</div>
+                <div style="top:880px;left:486px;width:28px;height:14px;" id="" class="mls74">Days</div>
+                <div style="top:880px;left:544px;width:35px;height:14px;" id="" class="mls22">Notes</div>
+                <div style="top:910px;left:3px;width:70px;height:14px;" id="" class="mls9">Co-Op Comm</div>
+                <div style="top:850px;left:2px;width:70px;height:14px;" id="" class="mls22">Agent Email</div>
+                <div style="top:895px;left:348px;width:68px;height:14px;" id="" class="mls22">Input Date</div>
+                <div style="top:25px;left:453px;width:85px;height:14px;" id="" class="mls74">List Date</div>
+                <div style="top:40px;left:453px;width:85px;height:14px;" id="" class="mls74">Pending Until</div>
+                <div style="top:967px;left:3px;width:90px;height:13px;" id="" class="mls74">Completion Date</div>
+                <div style="top:939px;left:3px;width:90px;height:13px;" id="" class="mls74">Sold Date</div>
+                <div style="top:953px;left:3px;width:90px;height:13px;" id="" class="mls74">Sold Price</div>
+                <div style="top:895px;left:537px;width:62px;height:14px;" id="" class="mls22">Expiry Date</div>
+                <div style="top:925px;left:304px;width:78px;height:13px;" id="" class="mls22">Buyer Agent 1</div>
+                <div style="top:939px;left:304px;width:78px;height:13px;" id="" class="mls22">Buyer Office 1</div>
+                <div style="top:953px;left:304px;width:78px;height:13px;" id="" class="mls22">Buyer Agent 2</div>
+                <div style="top:967px;left:304px;width:78px;height:13px;" id="" class="mls22">Buyer Office 2</div>
+                <div style="top:145px;left:224px;width:75px;height:14px;" id="" class="mls77">Unit/UF</div>
+                <div style="top:145px;left:352px;width:10px;height:14px;" id="" class="mls198">/</div>
+                <div style="top:475px;left:494px;width:70px;height:14px;" id="" class="mls9">Separate Ent.</div>
+                <div style="top:505px;left:495px;width:70px;height:14px;" id="" class="mls9">Garage Suite</div>
+                <div style="top:490px;left:494px;width:70px;height:14px;" id="" class="mls9">Garden Suite</div>
+                <div style="top:145px;left:453px;width:85px;height:14px;" id="" class="mls74">Baths/Ensuites</div>
+                <div style="top:160px;left:574px;width:10px;height:14px;" id="" class="mls198">/</div>
+                <div style="top:145px;left:574px;width:10px;height:14px;" id="" class="mls198">/</div>
+                <div style="top:70px;left:596px;width:10px;height:14px;" id="" class="mls61">/</div>
+                <div style="top:85px;left:596px;width:8px;height:14px;" id="" class="mls61">/</div>
+                <div style="top:400px;left:4px;width:90px;height:14px;" id="" class="mls74">Den</div>
+                <div style="top:340px;left:417px;width:32px;height:14px;" id="" class="mls197">Bath#</div>
+                <div style="top:355px;left:417px;width:32px;height:14px;" id="" class="mls199">1</div>
+                <div style="top:370px;left:417px;width:32px;height:14px;" id="" class="mls199">2</div>
+                <div style="top:385px;left:417px;width:32px;height:14px;" id="" class="mls199">3</div>
+                <div style="top:400px;left:417px;width:32px;height:14px;" id="" class="mls199">4</div>
+                <div style="top:415px;left:417px;width:32px;height:14px;" id="" class="mls199">5</div>
+                <div style="top:430px;left:417px;width:32px;height:14px;" id="" class="mls199">6</div>
+                <div style="top:340px;left:492px;width:32px;height:14px;" id="" class="mls197">#Pcs</div>
+                <div style="top:445px;left:417px;width:32px;height:14px;" id="" class="mls199">7</div>
+                <div style="top:340px;left:455px;width:32px;height:14px;" id="" class="mls197">Lvl</div>
+                <div style="top:340px;left:528px;width:32px;height:14px;" id="" class="mls197">Ens</div>
+                <div style="top:910px;left:689px;width:31px;height:14px;" id="" class="mls74">CDOM</div>
+                <div style="top:925px;left:3px;width:90px;height:13px;" id="" class="mls74">Terms of Cond</div>
+                <div style="top:535px;left:700px;width:10px;height:14px;" id="" class="mls83">x</div>
+                <div style="top:460px;left:4px;width:66px;height:14px;" id="" class="mls74">Heat Source</div>
+                <div style="top:460px;left:256px;width:54px;height:14px;" id="" class="mls74">Heat Type</div>
+                <div style="top:475px;left:4px;width:66px;height:14px;" id="" class="mls74">Roof</div>
+                <div style="top:490px;left:4px;width:66px;height:14px;" id="" class="mls74">Foundation</div>
+                <div style="top:505px;left:4px;width:66px;height:14px;" id="" class="mls74">Exterior</div>
+                <div style="top:520px;left:4px;width:66px;height:14px;" id="" class="mls74">Features</div>
+                <div style="top:580px;left:4px;width:66px;height:14px;" id="" class="mls77">Goods Incl.</div>
+                <div style="top:656px;left:4px;width:66px;height:14px;" id="" class="mls74">Site Features</div>
+                <div style="top:702px;left:5px;width:66px;height:14px;" id="" class="mls74">Parking</div>
+                <div style="top:620px;left:494px;width:24px;height:14px;" id="" class="mls74">HOA</div>
+                <div style="top:687px;left:494px;width:52px;height:14px;" id="" class="mls74">Rd Access</div>
+                <div style="top:671px;left:494px;width:52px;height:14px;" id="" class="mls74">Warranty</div>
+                <div style="top:910px;left:348px;width:68px;height:14px;" id="" class="mls74">SRR Y/N</div>
+                <div style="top:910px;left:450px;width:50px;height:14px;" id="" class="mls74">Exclusion</div>
+                <div style="top:910px;left:537px;width:59px;height:14px;" id="" class="mls74">Excl. Date</div>
+                <div style="top:626px;left:4px;width:66px;height:14px;" id="" class="mls74">Goods Excl.</div>
+                <div style="top:895px;left:689px;width:32px;height:14px;" id="" class="mls74">DOM</div>
+                <div style="top:775px;left:664px;width:50px;height:14px;" id="" class="mls74">Min. Age</div>
+                <div style="top:550px;left:494px;width:52px;height:14px;" id="" class="mls74">Flooring</div>
+                <div style="top:701px;left:76px;width:30px;height:14px;" id="" class="mls74">Total</div>
+                <div style="top:715px;left:76px;width:30px;height:14px;" id="" class="mls74">Encl.</div>
+                <div style="top:490px;left:271px;width:66px;height:14px;" id="" class="mls74">Construction</div>
+                <div style="top:535px;left:494px;width:44px;height:14px;" id="" class="mls74">Tot. Ac.</div>
+                <div style="top:700px;left:494px;width:52px;height:14px;" id="" class="mls74">Grge Dim.</div>
+                <div style="top:70px;left:652px;width:28px;height:14px;" id="" class="mls74">LI $</div>
+                <div style="top:85px;left:652px;width:28px;height:14px;" id="" class="mls74">LI Yr</div>
+                <div style="top:100px;left:340px;width:10px;height:16px;" id="" class="mls199">/</div>
+                <div style="top:490px;left:600px;width:40px;height:16px;" id="" class="mls74">Permit</div>
+                <div style="top:505px;left:600px;width:40px;height:16px;" id="" class="mls74">Permit</div>
+                <div style="top:445px;left:650px;width:50px;height:14px;" id="" class="mls83">2</div>
+                <div style="top:175px;left:543px;width:35px;height:14px;" id="" class="mls200">0</div>
+                <div style="top:355px;left:650px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:355px;left:706px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:370px;left:650px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:370px;left:706px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:385px;left:650px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:385px;left:706px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:400px;left:650px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:400px;left:706px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:415px;left:650px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:415px;left:706px;width:50px;height:14px;" id="" class="mls83"></div>
+                <div style="top:430px;left:650px;width:50px;height:14px;" id="" class="mls83">129.00</div>
+                <div style="top:430px;left:706px;width:50px;height:14px;" id="" class="mls83">1,388.56</div>
+                <div style="top:1px;left:125px;width:333px;height:17px;" id="" class="mls201">#1 10417 69 AV NW</div>
+                <div style="top:1px;left:605px;width:111px;height:17px;" id="" class="mls202">$350,000</div>
+                <div style="top:340px;left:98px;width:72px;height:14px;" id="" class="mls81">5.02x3.24</div>
+                <div style="top:355px;left:98px;width:72px;height:14px;" id="" class="mls81">4.28x2.62</div>
+                <div style="top:370px;left:98px;width:72px;height:14px;" id="" class="mls81">6.06x3.70</div>
+                <div style="top:385px;left:98px;width:72px;height:14px;" id="" class="mls81"></div>
+                <div style="top:445px;left:98px;width:72px;height:14px;" id="" class="mls81">3.07x2.39</div>
+                <div style="top:340px;left:300px;width:74px;height:14px;" id="" class="mls79">4.53x2.79</div>
+                <div style="top:355px;left:300px;width:74px;height:14px;" id="" class="mls79"></div>
+                <div style="top:415px;left:98px;width:72px;height:14px;" id="" class="mls81"></div>
+                <div style="top:370px;left:300px;width:74px;height:14px;" id="" class="mls81"></div>
+                <div style="top:385px;left:300px;width:74px;height:14px;" id="" class="mls81"></div>
+                <div style="top:415px;left:300px;width:74px;height:14px;" id="" class="mls81"></div>
+                <div style="top:430px;left:300px;width:74px;height:14px;" id="" class="mls81"></div>
+                <div style="top:25px;left:656px;width:75px;height:14px;" id="" class="mls203">
+                    <a href="javascript:;" onclick="javascript: getCurrentView(225266254,0);">E4353434</a>
+                </div>
+                <div style="top:130px;left:308px;width:48px;height:14px;" id="" class="mls79">1423355</div>
+                <div style="top:130px;left:365px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:130px;left:413px;width:34px;height:14px;" id="" class="mls83"></div>
+                <div style="top:145px;left:308px;width:40px;height:14px;" id="" class="mls79">1</div>
+                <div style="top:145px;left:365px;width:32px;height:14px;" id="" class="mls83">3749</div>
+                <div style="top:160px;left:308px;width:140px;height:14px;" id="" class="mls12">0038687091</div>
+                <div style="top:55px;left:578px;width:38px;height:14px;" id="" class="mls12"></div>
+                <div style="top:55px;left:308px;width:140px;height:14px;" id="" class="mls12">T6H 2C4</div>
+                <div style="top:70px;left:605px;width:41px;height:14px;" id="" class="mls79"></div>
+                <div style="top:715px;left:508px;width:72px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:72px;height:14px;" class="mls191">
+                                <a href="https://my.matterport.com/show/?m=Avte8Gq5ScT&mls=1" target="new_VTwindow" onclick="" data-subject="%7b%22listingKey%22%3a225266254%2c%22listingId%22%3a%22E4353434%22%2c%22vtUrl%22%3a%22https%3a%2f%2fmy.matterport.com%2fshow%2f%3fm%3dAvte8Gq5ScT%26mls%3d1%22%7d" class="at-vtour-click" title="Click to view this listing&#39;s URL-Virtual Tour">URL-Virtual Tour</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="top:535px;left:658px;width:42px;height:14px;" id="" class="mls79"></div>
+                <div style="top:535px;left:710px;width:44px;height:14px;" id="" class="mls79"></div>
+                <div style="top:520px;left:552px;width:40px;height:14px;" id="" class="mls79">194.09</div>
+                <div style="top:85px;left:606px;width:40px;height:14px;" id="" class="mls79">2022</div>
+                <div style="top:85px;left:543px;width:50px;height:14px;" id="" class="mls79">$3,200.85</div>
+                <div style="top:175px;left:408px;width:44px;height:14px;" id="" class="mls79"></div>
+                <div style="top:745px;left:76px;width:74px;height:14px;" id="" class="mls12">$0.00</div>
+                <div style="top:805px;left:477px;width:196px;height:14px;" id="" class="mls12">Self Managed</div>
+                <div style="top:805px;left:693px;width:65px;height:14px;" id="" class="mls79">403-347-1384</div>
+                <div style="top:730px;left:733px;width:26px;height:14px;" id="" class="mls12"></div>
+                <div style="top:730px;left:600px;width:44px;height:14px;" id="" class="mls12"></div>
+                <div style="top:620px;left:580px;width:46px;height:14px;" id="" class="mls79"></div>
+                <div style="top:760px;left:628px;width:44px;height:14px;" id="" class="mls7"></div>
+                <div style="top:775px;left:611px;width:40px;height:14px;" id="" class="mls12"></div>
+                <div style="top:760px;left:682px;width:44px;height:14px;" id="" class="mls81"></div>
+                <div style="top:760px;left:737px;width:27px;height:14px;" id="" class="mls81"></div>
+                <div style="top:775px;left:477px;width:70px;height:14px;" id="" class="mls79"></div>
+                <div style="top:790px;left:611px;width:68px;height:14px;" id="" class="mls12"></div>
+                <div style="top:820px;left:76px;width:266px;height:14px;" id="" class="mls7">1807522 Alberta Inc.</div>
+                <div style="top:835px;left:76px;width:266px;height:14px;" id="" class="mls12">
+                    <a href="javascript:;" onclick="javascript:;" listingId="225266254" modalType="user" modalTitle="Agent Information" rel="13503">Dave J Ryan - Ph: 780-660-3283</a>
+                </div>
+                <div style="top:865px;left:76px;width:266px;height:14px;" id="" class="mls12">
+                    <a href="javascript:;" onclick="javascript:;" listingId="225266254" modalType="office" modalTitle="Office Information" rel="840">RE/MAX Real Estate - Off#: 780-963-4004</a>
+                </div>
+                <div style="top:880px;left:76px;width:266px;height:14px;" id="" class="mls12">
+                    <a href="javascript:;" onclick="javascript:;" listingId="225266254" modalType="user" modalTitle="Agent Information" rel="11223">John T Ryan - Ph: 780-995-4232</a>
+                </div>
+                <div style="top:895px;left:76px;width:266px;height:14px;" id="" class="mls12">
+                    <a href="javascript:;" onclick="javascript:;" listingId="225266254" modalType="office" modalTitle="Office Information" rel="840">RE/MAX Real Estate - Off#: 780-963-4004</a>
+                </div>
+                <div style="top:820px;left:600px;width:165px;height:14px;" id="" class="mls12">Dave</div>
+                <div style="top:835px;left:600px;width:165px;height:14px;" id="" class="mls12">780-660-3283</div>
+                <div style="top:880px;left:582px;width:185px;height:14px;" id="" class="mls12">immediate</div>
+                <div style="top:880px;left:516px;width:25px;height:14px;" id="" class="mls12"></div>
+                <div style="top:880px;left:420px;width:62px;height:14px;" id="" class="mls12"></div>
+                <div style="top:910px;left:76px;width:266px;height:14px;" id="" class="mls12">3.5/1.5B</div>
+                <div style="top:850px;left:76px;width:266px;height:14px;" id="" class="mls12">
+                    <a href="javascript:;" onclick="ShowEmail(&#39;dave@daveryansells.ca&#39;, &#39;Regarding the ML Listings E4353434 - 1 10417 69 Avenue Edmonton, AB T6H 2C4&#39;)" data-subject="%7b%22listingKey%22%3a225266254%2c%22listingId%22%3a%22E4353434%22%2c%22city%22%3a%220098%22%2c%22state%22%3a%22AB%22%2c%22zip%22%3a%22T6H+2C4%22%2c%22country%22%3a%22CA%22%2c%22emailUrl%22%3a%22dave%40daveryansells.ca%22%7d" class="at-listing-external-email">dave@daveryansells.ca</a>
+                </div>
+                <div style="top:895px;left:420px;width:108px;height:12px;" id="" class="mls7">8/9/2023 9:53 AM</div>
+                <div style="top:25px;left:543px;width:90px;height:14px;" id="" class="mls7">8/9/2023</div>
+                <div style="top:910px;left:725px;width:36px;height:14px;" id="" class="mls81">113</div>
+                <div style="top:939px;left:97px;width:200px;height:13px;" id="" class="mls12"></div>
+                <div style="top:953px;left:97px;width:200px;height:13px;" id="" class="mls12"></div>
+                <div style="top:895px;left:603px;width:72px;height:14px;" id="" class="mls12"></div>
+                <div style="top:925px;left:391px;width:370px;height:13px;" id="" class="mls12 at-phone-link"></div>
+                <div style="top:939px;left:391px;width:370px;height:13px;" id="" class="mls12"></div>
+                <div style="top:953px;left:391px;width:370px;height:13px;" id="" class="mls12 at-phone-link"></div>
+                <div style="top:967px;left:391px;width:370px;height:13px;" id="" class="mls12"></div>
+                <div style="top:475px;left:569px;width:25px;height:14px;" id="" class="mls79"></div>
+                <div style="top:160px;left:543px;width:28px;height:14px;" id="" class="mls200">3</div>
+                <div style="top:145px;left:543px;width:28px;height:14px;" id="" class="mls204">2.1</div>
+                <div style="top:430px;left:98px;width:72px;height:14px;" id="" class="mls81">4.09x4.15</div>
+                <div style="top:145px;left:585px;width:30px;height:14px;" id="" class="mls83">1</div>
+                <div style="top:192px;left:2px;width:762px;height:50px;" id="" class="mls22">Tenant occupied... please give as much notice as possible.  Paying $1500/month on a month to month agreement.  Property is technically a condo... however there is no monthly condo fee and the property is self managed.  Call or text Dave for more details.</div>
+                <div style="top:245px;left:2px;width:762px;height:92px;" id="" class="mls12">Modern, great location and the perfect spot for your investment! Long term tenant would love to stay! You &#39;ll love this great looking half duplex in Allendale. Walk in the door and you &#39;ll appreciate the large open floor plan. Big kitchen with tons of natural light. A large kitchen and plenty of cabinets. Open on the ample dining area with room to host family and friends. Large living room is a great spot to camp out in the evening when you want to stay in. Head upstairs and you &#39;ll find the great size master bedroom. Nice windows for more natural light. Good size walk in closet and a 3pc ensuite too! 2 more bedrooms, great for kids, guests or a home office. Great location just a few blocks south of Whyte Ave with easy access to transit, Calgary Trail and the Whitemud.</div>
+                <div style="top:400px;left:98px;width:72px;height:14px;" id="" class="mls79"></div>
+                <div style="top:400px;left:300px;width:74px;height:14px;" id="" class="mls79"></div>
+                <div style="top:355px;left:492px;width:32px;height:14px;" id="" class="mls83">2</div>
+                <div style="top:355px;left:528px;width:32px;height:14px;" id="" class="mls83">No</div>
+                <div style="top:370px;left:492px;width:32px;height:14px;" id="" class="mls83">3</div>
+                <div style="top:370px;left:528px;width:32px;height:14px;" id="" class="mls83">No</div>
+                <div style="top:385px;left:492px;width:32px;height:14px;" id="" class="mls83">4</div>
+                <div style="top:385px;left:528px;width:32px;height:14px;" id="" class="mls83">Yes</div>
+                <div style="top:400px;left:492px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:400px;left:528px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:415px;left:492px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:415px;left:528px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:430px;left:492px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:430px;left:528px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:445px;left:492px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:445px;left:528px;width:32px;height:14px;" id="" class="mls83"></div>
+                <div style="top:445px;left:300px;width:74px;height:14px;" id="" class="mls79"></div>
+                <div style="top:715px;left:591px;width:64px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:64px;height:14px;" class="mls191">
+                                <a target="new_VTwindow" onclick="" data-subject="%7b%22listingKey%22%3a225266254%2c%22listingId%22%3a%22E4353434%22%2c%22vtUrl%22%3a%22%22%7d" class="at-vtour-click"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="top:910px;left:603px;width:71px;height:14px;" id="" class="mls79"></div>
+                <div style="top:626px;left:76px;width:400px;height:24px;" id="" class="mls7"></div>
+                <div style="top:895px;left:725px;width:40px;height:14px;" id="" class="mls79">113</div>
+                <div style="top:775px;left:717px;width:45px;height:14px;" id="" class="mls79"></div>
+                <div style="top:701px;left:106px;width:16px;height:14px;" id="" class="mls83"></div>
+                <div style="top:715px;left:106px;width:16px;height:14px;" id="" class="mls83"></div>
+                <div style="top:535px;left:552px;width:62px;height:14px;" id="" class="mls79"></div>
+                <div style="top:40px;left:543px;width:90px;height:14px;" id="" class="mls79"></div>
+                <div style="top:967px;left:97px;width:200px;height:13px;" id="" class="mls79"></div>
+                <div style="top:160px;left:585px;width:30px;height:14px;" id="" class="mls83">3</div>
+                <div style="top:715px;left:664px;width:80px;position:absolute;" id="">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="width:80px;height:14px;" class="mls191">
+                                <a target="new_VTwindow" onclick="" data-subject="%7b%22listingKey%22%3a225266254%2c%22listingId%22%3a%22E4353434%22%2c%22vtUrl%22%3a%22%22%7d" class="at-vtour-click"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="top:700px;left:552px;width:210px;height:14px;" id="" class="mls79"></div>
+                <div style="top:70px;left:683px;width:60px;height:14px;" id="" class="mls79"></div>
+                <div style="top:85px;left:683px;width:60px;height:14px;" id="" class="mls79"></div>
+                <div style="top:100px;left:350px;width:40px;height:16px;" id="" class="mls79"></div>
+                <div style="top:100px;left:308px;width:40px;height:16px;" id="" class="mls79">2014</div>
+                <div style="top:490px;left:640px;width:30px;height:16px;" id="" class="mls79"></div>
+                <div style="top:505px;left:640px;width:44px;height:16px;" id="" class="mls79"></div>
+                <div style="top:370px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:385px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:415px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:430px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:340px;left:177px;width:20px;height:14px;" id="" class="mls205">M</div>
+                <div style="top:355px;left:177px;width:20px;height:14px;" id="" class="mls205">M</div>
+                <div style="top:370px;left:177px;width:20px;height:14px;" id="" class="mls205">M</div>
+                <div style="top:385px;left:177px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:445px;left:177px;width:20px;height:14px;" id="" class="mls205">U</div>
+                <div style="top:340px;left:381px;width:20px;height:14px;" id="" class="mls205">U</div>
+                <div style="top:355px;left:381px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:415px;left:177px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:370px;left:381px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:385px;left:381px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:415px;left:381px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:430px;left:381px;width:20px;height:14px;" id="" class="mls205"></div>
+                <div style="top:25px;left:308px;width:140px;height:14px;" id="" class="mls90">Edmonton</div>
+                <div style="top:40px;left:308px;width:140px;height:14px;" id="" class="mls206">Allendale</div>
+                <div style="top:85px;left:308px;width:140px;height:14px;" id="" class="mls206">Half Duplex</div>
+                <div style="top:115px;left:308px;width:140px;height:14px;" id="" class="mls206">2 Storey</div>
+                <div style="top:175px;left:308px;width:60px;height:14px;" id="" class="mls206">Fee Simple</div>
+                <div style="top:55px;left:543px;width:20px;height:14px;" id="" class="mls85"></div>
+                <div style="top:70px;left:308px;width:140px;height:14px;" id="" class="mls207">15</div>
+                <div style="top:70px;left:543px;width:50px;height:14px;" id="" class="mls86"></div>
+                <div style="top:578px;left:523px;width:24px;height:14px;" id="" class="mls85"></div>
+                <div style="top:460px;left:550px;width:60px;height:14px;" id="" class="mls208">None</div>
+                <div style="top:460px;left:630px;width:90px;height:14px;" id="" class="mls206">No Basement</div>
+                <div style="top:475px;left:654px;width:25px;height:14px;" id="" class="mls89">No</div>
+                <div style="top:475px;left:728px;width:25px;height:14px;" id="" class="mls90"></div>
+                <div style="top:520px;left:657px;width:103px;height:14px;" id="" class="mls85"></div>
+                <div style="top:505px;left:740px;width:25px;height:14px;" id="" class="mls86">N</div>
+                <div style="top:730px;left:76px;width:311px;height:14px;" id="" class="mls206">No Name</div>
+                <div style="top:745px;left:216px;width:171px;height:14px;" id="" class="mls206">Monthly</div>
+                <div style="top:730px;left:477px;width:70px;height:14px;" id="" class="mls85"></div>
+                <div style="top:620px;left:673px;width:87px;height:14px;" id="" class="mls85"></div>
+                <div style="top:760px;left:477px;width:70px;height:14px;" id="" class="mls85">N/A</div>
+                <div style="top:790px;left:477px;width:70px;height:14px;" id="" class="mls89">No</div>
+                <div style="top:745px;left:644px;width:30px;height:14px;" id="" class="mls85"></div>
+                <div style="top:745px;left:733px;width:26px;height:14px;" id="" class="mls89"></div>
+                <div style="top:850px;left:600px;width:165px;height:14px;" id="" class="mls206">Tenant</div>
+                <div style="top:505px;left:570px;width:26px;height:14px;" id="" class="mls89"></div>
+                <div style="top:490px;left:570px;width:25px;height:14px;" id="" class="mls89"></div>
+                <div style="top:430px;left:177px;width:20px;height:14px;" id="" class="mls205">U</div>
+                <div style="top:400px;left:177px;width:20px;height:14px;" id="" class="mls86"></div>
+                <div style="top:400px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:400px;left:381px;width:20px;height:14px;" id="" class="mls86"></div>
+                <div style="top:355px;left:455px;width:32px;height:14px;" id="" class="mls209">M</div>
+                <div style="top:370px;left:455px;width:32px;height:14px;" id="" class="mls209">U</div>
+                <div style="top:385px;left:455px;width:32px;height:14px;" id="" class="mls209">U</div>
+                <div style="top:400px;left:455px;width:32px;height:14px;" id="" class="mls209"></div>
+                <div style="top:415px;left:455px;width:32px;height:14px;" id="" class="mls209"></div>
+                <div style="top:430px;left:455px;width:32px;height:14px;" id="" class="mls209"></div>
+                <div style="top:445px;left:455px;width:32px;height:14px;" id="" class="mls209"></div>
+                <div style="top:445px;left:206px;width:90px;height:14px;" id="" class="mls87"></div>
+                <div style="top:445px;left:381px;width:20px;height:14px;" id="" class="mls86"></div>
+                <div style="top:620px;left:523px;width:24px;height:14px;" id="" class="mls85">No</div>
+                <div style="top:910px;left:420px;width:25px;height:12px;" id="" class="mls85">No</div>
+                <div style="top:910px;left:504px;width:26px;height:14px;" id="" class="mls85">No</div>
+                <div style="top:490px;left:339px;width:148px;height:14px;" id="" class="mls85">Wood Frame</div>
+                <div style="top:100px;left:543px;width:200px;height:44px;" id="" class="mls206">None Known</div>
+                <div style="top:865px;left:420px;width:345px;height:14px;" id="" class="mls85">Private</div>
+                <div style="top:578px;left:598px;width:164px;height:14px;" id="" class="mls90"></div>
+                <div style="top:594px;left:552px;width:208px;height:25px;" id="" class="mls206"></div>
+                <div style="top:745px;left:477px;width:70px;height:14px;" id="" class="mls86"></div>
+                <div style="top:760px;left:76px;width:311px;height:58px;" id="" class="mls206">Self Managed</div>
+                <div style="top:635px;left:552px;width:208px;height:34px;" id="" class="mls206"></div>
+                <div style="top:820px;left:420px;width:114px;height:44px;" id="" class="mls89">ShowingTime</div>
+                <div style="top:925px;left:97px;width:200px;height:13px;" id="" class="mls85"></div>
+                <div style="top:460px;left:76px;width:172px;height:14px;" id="" class="mls89">Natural Gas</div>
+                <div style="top:460px;left:316px;width:171px;height:14px;" id="" class="mls89">Forced Air-1</div>
+                <div style="top:505px;left:76px;width:411px;height:14px;" id="" class="mls89">Stucco</div>
+                <div style="top:520px;left:76px;width:411px;height:58px;" id="" class="mls206">Off Street Parking, Ceiling 9 ft., Closet Organizers, Deck, Detectors Smoke, Exterior Walls- 2 &quot;x6 &quot;, Laundry-In-Suite, No Smoking Home, Vinyl Windows</div>
+                <div style="top:580px;left:76px;width:411px;height:44px;" id="" class="mls206">Dishwasher-Built-In, Dryer, Microwave Hood Fan, Refrigerator, Stove-Electric, Washer</div>
+                <div style="top:656px;left:76px;width:411px;height:44px;" id="" class="mls89">Back Lane, Flat Site, Landscaped, Low Maintenance Landscape, Not Fenced, Schools, Shopping Nearby</div>
+                <div style="top:700px;left:125px;width:362px;height:28px;" id="" class="mls89">Stall</div>
+                <div style="top:687px;left:552px;width:210px;height:14px;" id="" class="mls89">Paved</div>
+                <div style="top:671px;left:552px;width:210px;height:14px;" id="" class="mls85"></div>
+                <div style="top:550px;left:552px;width:210px;height:26px;" id="" class="mls89">Carpet, Hardwood, Linoleum</div>
+                <div style="top:475px;left:76px;width:411px;height:14px;" id="" class="mls85">Flat</div>
+                <div style="top:490px;left:76px;width:189px;height:14px;" id="" class="mls85">Concrete</div>
+                <div style="padding-bottom:0px;left:750px;text-align:Left;width:16px;z-index:2;height:16px;position:absolute;top:22px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/10" target="NWin" class="f-integration-history  f-integration-colorbox-link links f-listing-225266254:0 f-integrationPointId-10" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-history.link.png" id="imgIcon" popupImage="" listingID="225266254" width="120" class="listingImage f-integration-history  f-integration-colorbox-link links f-listing-225266254:0 f-integrationPointId-10" height="90" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" fullWindow="False" title="History" alt="History"/>
+                    </a>
+                </div>
+                <div style="padding-bottom:0px;left:750px;text-align:Left;width:16px;z-index:2;height:16px;position:absolute;top:44px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/11" target="NWin" class="f-integration-map  f-integration-minbox-link links f-listing-225266254:0 f-integrationPointId-11" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-bing.link.png" id="imgIcon" popupImage="" listingID="225266254" width="120" class="listingImage f-integration-map  f-integration-minbox-link links f-listing-225266254:0 f-integrationPointId-11" height="90" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" cboxwidth="700" fullWindow="False" cboxheight="700" title="Map" alt="Map"/>
+                    </a>
+                </div>
+                <div style="padding-bottom:0px;left:750px;text-align:Left;width:16px;z-index:2;height:16px;position:absolute;top:65px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/60" target="NWin" class="f-integration-paragontax  f-integration-searchview-link links f-listing-225266254:0 f-integrationPointId-60" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-paragon_tax.link.png" id="imgIcon" popupImage="" listingID="225266254" width="120" class="listingImage f-integration-paragontax  f-integration-searchview-link links f-listing-225266254:0 f-integrationPointId-60" height="90" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" cboxwidth="500" fullWindow="False" cboxheight="800" title="Paragon Tax" alt="Paragon Tax"/>
+                    </a>
+                </div>
+                <div style="padding-bottom:0px;left:750px;text-align:Left;width:16px;z-index:2;height:16px;position:absolute;top:85px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/122" target="NWin" class="f-integration-geojet4  f-integration-redirect-link links f-listing-225266254:0 f-integrationPointId-122" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-geojet.link.png" id="imgIcon" popupImage="" listingID="225266254" width="120" class="listingImage f-integration-geojet4  f-integration-redirect-link links f-listing-225266254:0 f-integrationPointId-122" height="90" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" fullWindow="False" title="GeoJet" alt="GeoJet"/>
+                    </a>
+                </div>
+                <div style="padding-bottom:0px;left:616px;text-align:Left;width:150px;z-index:2;height:26px;position:absolute;top:167px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/203" target="NWin" class="f-integration-showingtime  f-integration-redirect-link links f-listing-225266254:0 f-integrationPointId-203" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-showing-time.link.png" id="imgIcon" popupImage="" listingID="225266254" width="640" class="listingImage f-integration-showingtime  f-integration-redirect-link links f-listing-225266254:0 f-integrationPointId-203" height="480" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" fullWindow="False" title="ShowingTime" alt="ShowingTime"/>
+                    </a>
+                </div>
+                <div style="padding-bottom:0px;left:750px;text-align:Left;width:16px;z-index:2;height:16px;position:absolute;top:128px;padding-right:0px;padding-left:0px;padding-top:0px;">
+                    <a href="/ParagonLS/Integration/Integration.mvc/ThirdParty/225266254/61" target="NWin" class="f-integration-associateddocs  f-integration-searchview-link links f-listing-225266254:0 f-integrationPointId-61" fullWindow="False" hideAddressBar="False">
+                        <img src="https://rae.paragonrels.com/ParagonLS/Content/images/integrations/f-listing-associated_docs.link.png" id="imgIcon" popupImage="" listingID="225266254" width="120" class="listingImage f-integration-associateddocs  f-integration-searchview-link links f-listing-225266254:0 f-integrationPointId-61" height="90" data-display-id="E4353434" style="border:none;" hideAddressBar="False" firstImage="0" fullWindow="False" title="Associated Docs" alt="Associated Docs"/>
+                    </a>
+                </div>
+                <div style="top:1px;left:469px;width:126px;height:17px;" id="" class="mls210">ACTIVE</div>
+                <div style="top:1px;left:3px;width:114px;height:17px;" id="" class="mls211">Condo</div>
+                <input name="checkbox_0" type="checkbox" id="checkbox_0" style="padding-bottom:0px;left:750px;padding-top:0px;z-index:10;position:absolute;top:0px;padding-right:0px;padding-left:0px;cursor:;" rel="225266254:0:E4353434" class="hideWhenPrinted listingCheckBox"/>
+            </div>
+        </div>
+        <style>
+            .mls190 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 0;
+                font-family: tahoma;
+                font-size: 11px;
+                color: #000000;
+                background-color: #FFFCFF;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls191 {
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Middle;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls192 {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Middle;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls193 {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Middle;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: MM/dd/yyyy;
+            }
+
+            .mls2 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 0;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls194 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 0;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls73 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 0;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls195 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 12px;
+                color: #434343;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Right;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls74 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls196 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                text-decoration: Underline;
+            }
+
+            .mls197 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                text-decoration: Underline;
+            }
+
+            .mls79 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls77 {
+                position: absolute;
+                overflow: hidden;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls198 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls22 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls12 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls9 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls61 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls199 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls83 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls200 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 11px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls201 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 14px;
+                color: #006699;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls202 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 14px;
+                color: #006699;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Right;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls81 {
+                position: absolute;
+                overflow: hidden;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls203 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 12px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Right;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls7 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls204 {
+                position: absolute;
+                overflow: hidden;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 11px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .mls87 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls205 {
+                position: absolute;
+                overflow: hidden;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: abbrev;
+            }
+
+            .mls90 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls206 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls85 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls207 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: abbrev;
+            }
+
+            .mls86 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: abbrev;
+            }
+
+            .mls208 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls89 {
+                position: absolute;
+                overflow: hidden;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls209 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 10px;
+                color: #000000;
+                background-color: transparent;
+                font-weight: Normal;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: abbrev;
+            }
+
+            .mls210 {
+                position: absolute;
+                overflow: hidden;
+                white-space: nowrap;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 14px;
+                color: #006699;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Center;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+
+            .mls211 {
+                position: absolute;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                z-index: 2;
+                font-family: tahoma;
+                font-size: 14px;
+                color: #006699;
+                background-color: transparent;
+                font-weight: bold;
+                text-align: Left;
+                vertical-align: Top;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                display: desc;
+            }
+        </style>
+        <div id="slideshowImages" style="display: none;"></div>
+        <input id="classList" name="classList" type="hidden" value="1"/>
+        <input id="searchId" name="searchId" type="hidden" value="tab1_1_2"/>
+        <div id="static_colorbox"></div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+        <script src="/ParagonLS/scripts/packages/Modulejs?v=Fqt-iMcQrnD2RMkTeW1MUBxtMj0zKCqR8xWccGMkzDc1"></script>
+        <script src="/ParagonLS/scripts/packages/Reportjs?v=LhfNjVyQvlEALL-2Jvwvubdjv6EvF_qm_PHAYp55MA41"></script>
+        <script type="text/javascript" language="javascript">
+            //<![CDATA[
+            $(function() {
+                integrationSkittles.RedirectAndDocCentralClickHandler();
+                integrationSkittles.RedirectSupraKeyboxSettingsClickHander();
+                integrationSkittles.RedirectGeoWareHouseClickHander();
+            });
+            var rugUrl = '/ParagonLS/Reports/Report.mvc/RugModalReport';
+            var slideshowUrl = '/ParagonLS/Reports/Report.mvc/SlideShow';
+            var modalReportUrl = '/ParagonLS/Reports/Report.mvc/ModalReport';
+            var emailManagerUrl = '/ParagonLS/EmailManager/Email.mvc/Compose';
+            var reportUrl = '/ParagonLS/Reports/Report.mvc?usePDF=False&ShowAds=False';
+            var currentViewId = 'c2932';
+            var autoPrint = false;
+            var walkScoreUrl = '/ParagonLS/Integration/Integration.mvc/GetWalkScoreJson';
+            var toolTipUrl = '/ParagonLS/Integration/Integration.mvc/GetToolTipData';
+            var auditDetailHideTransactionUrl = '/ParagonLS/Reports/Report.mvc/HideListingTransaction';
+            var agentPhotoEnabled = 'True';
+            var hideListingCheckbox = false;
+            var listingId = '225266254';
+
+            if (!$.activityTracking)
+                $.activityTracking = {};
+
+            $.activityTracking.actor = JSON.parse(decodeURIComponent('%7b%22memberMlsId%22%3a17594%2c%22memberFullName%22%3a%22Justin+Iyizoba%22%2c%22memberEmail%22%3a%22justin.iyizoba%40gmail.com%22%2c%22memberAorMlsId%22%3a%22REALTORS%c2%ae+Association+of+Edmonton%22%2c%22userIpAddress%22%3a%2275.158.138.238%22%2c%22sessionId%22%3a%22ea688a83-9c1e-40ca-ac55-d5ec3ba98c5a%22%2c%22mlsSecurityClass%22%3a6%2c%22memberType%22%3a%22HEAD+BROKER%22%7d'));
+            $.activityTracking.subject = JSON.parse(decodeURIComponent('%7b%22siteUrl%22%3a%22https%3a%2f%2frae.paragonrels.com%22%2c%22activityPage%22%3a%22%2fParagonLS%2fReports%2fReport.mvc%3flistingIDs%3d225266254%26screenWidth%3d877%26uniqueIDs%3d%26viewID%3dc2932%26classID%3d1%26usePDF%3dfalse%26ShowAds%3dtrue%26searchID%3dtab1_1_2%26listingMode%3d0%22%7d'));
+            //]]>
+        </script>
+        <script type="text/javascript">
+            //<![CDATA[
+            var _isUploadSupported = true;
+            var _isTablet = false;
+            var _isRteSupported = true;
+            window.focusAppPath = "/ParagonLS/";
+            window._ajaxTimeout = 30000;
+            window._parcelStreamUrl = '/ParagonLS/Scripts/GoogleMaps/SpatialStream.min.js';
+            window._infoBoxUrl = '/ParagonLS/Scripts/GoogleMaps/infobox.js';
+            window._mappingProviderName = 'Google';
+            window._cssVersion = "3095174";
+            var todayDt = new Date('11/30/2023 7:33:32 AM');
+            if (parent.$('#cboxPageNumber').length > 0) {
+                parent.$('#cboxPageNumber').remove();
+            }
+
+            if (!$.activityTracking)
+                $.activityTracking = {};
+
+            $.activityTracking.systemId = 'RAE';
+            $.activityTracking.enabled = 'Y';
+            $.activityTracking.diagnostic = 'N';
+            $.activityTracking.server = 'https://p130.paragonrels.com/inferno/' + 'analytics/logeventasync' + (($.activityTracking.diagnostic && $.activityTracking.diagnostic === 'Y') ? '?diagnosticLogging=true' : '');
+            //]]>
+        </script>
+        <script type="text/javascript">
+            //<![CDATA[
+
+            //]]>
+        </script>
+    </body>
+</html>
+<!-- Page Render Time: 201ms -->
