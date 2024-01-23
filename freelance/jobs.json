@@ -1,0 +1,746 @@
+[
+    {
+        "title": "AI web app that read data from pdf and answer the questions and make quizzes (by using api)",
+        "description": "I want building web app thats help students to summarize and make quizzes for them from pdfs bu integrated with service providers like Chat gpt etc. and it will be in arabic \n\nSome websites have same ideas exactly \n\nhttps://pdf.ai/\nhttps://bites.shaguf.com/",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "Web Application",
+            "AI Bot",
+            "API Integration",
+            ".NET Framework",
+            "AngularJS",
+            "ASP.NET",
+            "ChatGPT API Integration",
+            "PHP",
+            "Python"
+        ],
+        "amount": 820
+    },
+    {
+        "title": "Website build on AWS",
+        "description": "Looking to have a website hosted on my AWS account to showcase my photography \nI love the look of this website - https://www.robertofvictor.com/\nPlease only reply if you can build this to host on AWS (not another service)  ",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "Amazon Web Services",
+            "HTML5"
+        ],
+        "amount": 890
+    },
+    {
+        "title": "Build a Shopify App for our SaaS",
+        "description": "We are looking for somebody experienced with Shopify Apps <span class=\"highlight\">development</span>.\nWe are an existing SaaS company, we would like the Shopify app to use our existing interface.\nThe Shopify App main purpose will be to integrate a JS line of code in the header of the Shopify websites.\nMore details will be given to the freelancer we pick.\nThank you",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "Shopify Development",
+            "Node.js",
+            "React",
+            "Shopify Apps"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 500
+        }
+    },
+    {
+        "title": "JQuery calculator adjusting on WordPress",
+        "description": "Looking for a WordPress <span class=\"highlight\">developer</span> who will adjust calculator code in to my WordPress elemetor based website. Calculator is simillar to one on this page: https://www.ether-solutions.co.uk/rpa-information/rpa-roi-calculator and i will provide code for it. Code is written in JQuery.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "WordPress",
+            "jQuery"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 10
+        }
+    },
+    {
+        "title": "Convert PHP application from php 5 to php 8",
+        "description": "I have a project created in PHP 5 and I need to change it to PHP version 8",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "PHP",
+            "Custom PHP",
+            "MySQL",
+            "MySQL Programming",
+            "PHP Script"
+        ],
+        "amount": 34
+    },
+    {
+        "title": "Rework simple front end of website",
+        "description": "We are seeking an experienced Front-End <span class=\"highlight\">Developer</span> to revitalize our website, ensuring it aligns with modern design standards and enhances user experience. Our current homepage, crafted with a combination of HTML and <span class=\"highlight\">JavaScript</span>, requires a professional touch to elevate its aesthetics and functionality. The ideal candidate will possess a strong background in web <span class=\"highlight\">development</span>, with a particular focus on responsive design. Your primary task will be to overhaul the homepage, infusing it with a contemporary look while maintaining its core functionality. This revamp includes optimizing layout, improving navigation, and ensuring seamless adaptability across various devices and screen sizes. As our website's sub-pages are generated from templates, your role will also involve updating these templates to ensure consistency in design and user experience throughout the site.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "Web Development",
+            "Landing Page",
+            "HTML",
+            "CSS",
+            "Web Design",
+            "WordPress"
+        ],
+        "amount": 16
+    },
+    {
+        "title": "Require Entry-mid level PHP <span class=\"highlight\">Developer</span>",
+        "description": "Are you a honest, teachable, and hard working person and Looking a remote opportunity? We're looking for a Skilled PHP <span class=\"highlight\">Developer</span> to join our company.\nWe are not interested in a freelancer, but rather an individual who is willing to become part of our team and grow with us.\nGreat opportunity to work with a quickly-growing knowledgeable, result oriented and modern team.\n\nMay require 4-5 days a week maximum, hours are flexible and dependent on how quickly you can do. Which needs to be done as quickly as possible.\nDespite being located all over the world, we all feel like family, and anyone who we hire onto our team full-time, we want to be a part of that family. Personality will be a big part of the hiring decision.\nBefore Sending Offers, Please Must Read Full-Detailed Description by clicking Job Description section at the Given Webpage.\nhttps://dub.sh/gen-descriptions\nwe appreciate you effort!",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "Web Development",
+            "Web Application",
+            "PHP",
+            "Custom PHP"
+        ],
+        "amount": 950
+    },
+    {
+        "title": "Data Automation Specialist",
+        "description": "We are looking for an expert in Airtable and Google Spreadsheets to help us automate the process of exporting data from spreadsheets and uploading it to Airtable. The successful candidate will play a crucial role in optimizing our data management workflows, ensuring data accuracy, and making data accessible to multiple users, each with their own account.\n\nResponsibilities:\n\n<span class=\"highlight\">Develop</span> and implement automated data export/import processes between Google Spreadsheets and Airtable.\nCollaborate with cross-functional teams to understand data requirements and design efficient solutions.\nEnsure data integrity and accuracy during the transfer process.\nCreate user-friendly interfaces or scripts to allow multiple users to interact with the data automation tool.\nProvide training and support to users on how to utilize the tool effectively.\nTroubleshoot and resolve any issues related to data automation.\n\nQualifications:\n\nProven expertise in Airtable and Google Spreadsheets.\nStrong understanding of data management principles.\nExperience with data automation and scripting (<span class=\"highlight\">JavaScript</span>, Google Apps Script, etc.).\nExcellent problem-solving and analytical skills.\nStrong communication and collaboration abilities.\nAbility to work independently and as part of a team.\nPrior experience with user access management and security considerations is a plus.",
+        "duration": "3 to 6 months",
+        "keywords": [
+            "API Integration",
+            "Python",
+            "Google Sheets",
+            "Automation",
+            "Airtable"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 200
+        }
+    },
+    {
+        "title": "Angular <span class=\"highlight\">developer</span>",
+        "description": "Responsibilities:\n\n- Build and maintain a website with an integrated inventory management system with an associated app\n- Able to <span class=\"highlight\">develop</span> and design a website and an app.\n- Frontend and backend <span class=\"highlight\">development</span>\n- Design and implement user-friendly interfaces that are visually appealing and responsive\n- Write clean, efficient, and well-documented code\n- Conduct thorough testing and debugging of web applications to ensure high performance and functionality\n- Stay up-to-date with emerging web <span class=\"highlight\">development</span> trends and technologies\n\n\nQualifications:\n\n- Bachelor's degree in Computer Science or a related field\n- Proven experience as a Web <span class=\"highlight\">Developer</span> or similar role with a resume or portfolio required\n- Proficient in web <span class=\"highlight\">development</span> languages such as HTML, CSS, <span class=\"highlight\">JavaScript</span>, and TypeScript\n- Strong knowledge of Angular 6+\n- Familiarity with version control systems (e.g., Git) and <span class=\"highlight\">development</span> tools (e.g., Visual Studio Code)\n- Experience with RESTful APIs and integrating third-party services\n- Understanding of UI/UX principles and best practices.\n- Ability to work independently as well as collaboratively in a team environment.\n\n\nThis is a contract-based job. If you are a talented Web <span class=\"highlight\">Developer</span> who is passionate about creating innovative web solutions, we would love to hear from you. \nJoin our dynamic team and contribute to the <span class=\"highlight\">development</span> of cutting-edge web applications and apps.\n\nPlease note that only qualified candidates will be contacted for further consideration.",
+        "duration": "3 to 6 months",
+        "keywords": [
+            "Web Development",
+            "Angular",
+            "TypeScript",
+            "Angular 6",
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Web Application"
+        ],
+        "amount": 45
+    },
+    {
+        "title": "Software <span class=\"highlight\">Developer</span> - Excel to User-Friendly Application Transformation",
+        "description": "Job Description:\nWe are on the lookout for a skilled Software <span class=\"highlight\">Developer</span> to transform our existing Excel documents into a user-friendly, intuitive software application. The ideal candidate will have a strong background in software <span class=\"highlight\">development</span>, with expertise in creating streamlined and visually appealing interfaces. The primary focus is on improving usability and enhancing the overall user experience while ensuring seamless data export capabilities to PDF and Excel files.\n\nResponsibilities:\n1. Collaborate closely with stakeholders to understand data processing needs and user requirements.\n2. <span class=\"highlight\">Develop</span> a user-friendly software application, transforming existing Excel functionalities into an intuitive interface.\n3. Prioritize and implement features that enhance overall usability and user experience.\n4. Integrate efficient data export functionalities, allowing users to export data seamlessly to PDF and Excel formats.\n5. Conduct thorough testing to ensure the software is robust, reliable, and user-friendly.\n6. Provide documentation and training materials to assist users in navigating and utilizing the new software effectively.\n\nRequirements:\n1. Proven experience in software <span class=\"highlight\">development</span> with a focus on creating user-friendly interfaces.\n2. Strong proficiency in relevant programming languages and frameworks.\n3. Ability to understand and work with complex data structures from Excel documents.\n4. Experience in optimizing software applications for efficient data export to PDF and Excel.\n5. Excellent communication skills and the ability to collaborate effectively with cross-functional teams.\n6. Demonstrated commitment to usability and user experience principles.\n\nTo apply, please submit your resume, a portfolio showcasing previous software <span class=\"highlight\">development</span> projects, and a cover letter detailing your experience in creating user-friendly interfaces and optimizing data export functionalities.\n\nJoin our team and contribute to the transformation of our data management processes, making them more accessible, user-friendly, and efficient. We look forward to welcoming a talented Software <span class=\"highlight\">Developer</span> to drive this exciting initiative.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "AI Agent Development",
+            "JavaScript",
+            "Web Application",
+            "Desktop Application",
+            "Python"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 200
+        }
+    },
+    {
+        "title": "<span class=\"highlight\">Develop</span> WooCommerce website from scratch",
+        "description": "Looking for a website <span class=\"highlight\">developer</span> who can assist me with building a website on WooCommerce from scratch. Content and design is already prepared, looking for someone who can bring the vision live via WooCommerce. \n\nThe project includes : \n- <span class=\"highlight\">developing</span> a general website \n- custom landing page\n- post purchase upsells \n- custom product page\n- one page customized checkout\n\nDelivery within 48 hours",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "WooCommerce",
+            "WordPress",
+            "PHP",
+            "CSS",
+            "Web Design",
+            "HTML",
+            "Ecommerce Website",
+            "HTML5"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 800
+        }
+    },
+    {
+        "title": "Create a High End Business Portfolio Website",
+        "description": "High End Business Portfolio Website for a Technology Company - Security Systems\n\nPurpose:\n- Wow looking website - must have eye poping feeling\n- Generating leads and sales\n- Providing information about the business\n- SEO optimization\n\nIdeal Skills and Experience:\n- Strong web design and <span class=\"highlight\">development</span> skills\n- Experience in creating high-end and visually appealing websites\n- Knowledge of SEO best practices\n- Ability to create a user-friendly and intuitive website layout\n- Must be able to understand the business and provide verbiage and pictures\n- Templates will not be allowed and must be freelancers own work\n- You must post at least 10 *CUSTOM* website done by you as references\n\nNumber of Pages:\n- 1-5 pages\n\nOverall, we are looking for a talented web designer and <span class=\"highlight\">developer</span> who can create a high-end business portfolio website for our technology company. The website should not only showcase our portfolio but also generate leads and sales. SEO optimization is crucial for us to increase our online visibility. We need a user-friendly and visually appealing website that provides comprehensive information about our business.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "Web Design",
+            "HTML",
+            "CSS"
+        ],
+        "amount": 30
+    },
+    {
+        "title": "Logo carousel fixing JS Error",
+        "description": "Looking for a <span class=\"highlight\">developer</span> who will fix JS error on my WordPress website. https://innsight.pl/oferta/ this is page which have problem with logo carousel which are in tabs.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "WordPress"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 10
+        }
+    },
+    {
+        "title": "PHP for an old browsergame (text only)",
+        "description": "This is a private Project!\n\nI´m looking for someone to help me create an event for an old text-based browsergame. Many thigs are already existing and can be re-used in some way.\n\n- Create the necessary classes with functions\n- Create the editor for comfortable usage for the team\n- Create the database tables most effective\n- Create the event-overview in existing css-design\n\nYou can imagine it like:\n500 times someone has to click on the big red button\nThe Overview shows a progress-bar 0/500, counting every time someone clicks the big red button.\nIf 500 is full, everyone who participated will get the bonus for this task.\nIt has to reset monthly.\nThere will be a few events each month at the same time, starting on the 1st and ending on the last day at midnight.\nEach Event (I will create them in the editor) will have a value (like from 1-5 as 1 is easy and 5 is difficult) and each month there should be events for like 8 points by random.\nIf all events are fulfilled, everyone who participated, will get the 2nd, big bonus.\n\nThe Editor may contain the following  options:\nCounter\nType\nValue\n\nI will for example create 5 Counters (1, 10, 25, 50, 100).\nI will for example create 5 Types (click red button, click green button, spend gold, use XY, die).\nI will for example create 5 Values (1-5)\nThese have to be saved in the databse.\nOut of this I will get the event creator, that provides me 3 dropdowns: Counter, Type, Value... and so I can create:\n1. Event: 10, click red button, 1\n2. Event: 100, die, 5\nand so on.\n\nWhat I will do:\n- Create all the variables and events in the editor\n- Place all the class-functions at the places where they will be triggered\n- Test\n- Provide the existing code as far as it is needed\n\n",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "PHP",
+            "HTML",
+            "MySQL"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 70
+        }
+    },
+    {
+        "title": "Custom WordPress Theme <span class=\"highlight\">Developer</span>",
+        "description": "We are seeking a skilled Custom WordPress Theme <span class=\"highlight\">Developer</span> to join our team. As a <span class=\"highlight\">developer</span>, you will be responsible for creating unique and responsive WordPress themes from scratch based on client requirements. You should have a strong understanding of WordPress functionality and be able to convert PSD files into fully functional WordPress themes. The ideal candidate will have experience with custom post types, custom fields, and customizing existing themes. \n\nSkills required:\n- WordPress <span class=\"highlight\">development</span>\n- PHP\n- HTML/CSS\n- <span class=\"highlight\">JavaScript</span>/jQuery\n- PSD to WordPress conversion\n- Custom plugin <span class=\"highlight\">development</span>\n\nThis is a medium-sized project that will require a commitment of 1 to 3 months. We expect the <span class=\"highlight\">developer</span> to work closely with our team and meet project deadlines. The right candidate should have an intermediate level of expertise in WordPress <span class=\"highlight\">development</span> and should be able to provide examples of their previous work.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "Web Development",
+            "WordPress",
+            "CSS",
+            "PHP"
+        ],
+        "amount": 20
+    },
+    {
+        "title": "Create Plugin fo Unturned",
+        "description": "I I need a plugin for the game on my Unturned server, so that when I kill an animal, it will be centered not on its death, but relative to the map, so that there are no problems with bugs. At the place where the animals died, a barricade appeared that could be beaten and from there would fall: tissue, bones and fat, and then it disappeared.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "C#"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 15
+        }
+    },
+    {
+        "title": "Build app-based solution to connect U.S. &amp; Guinea &amp; global agricultural stakeholders",
+        "description": "Project Deliverables: \n∙ User-friendly mobile applications for farmers, TRP, and buyers.  \n∙ Admin portal for the TRP.  \n∙ Loan management system.  \n∙ Real-time supply chain tracking.  \n∙ Onboarding and Verification  \n∙ Notification via Push, SMS, Email  \n\nProject Overview: The BLOCFARM Project aims to create a blockchain-based agricultural solution that connects farmers, a trading and processing company (TRP), and buyers. This system will streamline the agricultural supply chain by enabling farmers to register, receive loans, and communicate with the TRP,  while the TRP can manage operations through an admin portal, distributing loans and tracking supply and demand. Buyers can input demand, make payments, and track their orders. The project will be divided into two phases.",
+        "duration": "3 to 6 months",
+        "keywords": [
+            "Mobile App Development",
+            "User Authentication",
+            "Review or Feedback Collection",
+            "Payment Functionality",
+            "API Integration",
+            "In-App Support",
+            "Business with 10-99 Employees",
+            "Android"
+        ],
+        "amount": 30
+    },
+    {
+        "title": "JBoss Expert Needed",
+        "description": "JBoss expert needed. Project details will be shared in interview.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JBoss EAP"
+        ],
+        "amount": 50
+    },
+    {
+        "title": "Need Babel typescript pre and post condition <span class=\"highlight\">developer</span>.",
+        "description": "Need someone to pass the transcribe pre and post-condition and it's a small test of your long-term and good job with good pay and incentive. I want someone who has already worked on Babel. ",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "TypeScript",
+            "Babel"
+        ],
+        "amount": 40
+    },
+    {
+        "title": "Design Expert E",
+        "description": "The Design Expert is responsible for creating and implementing engaging designs, using a variety of materials and technologies. This includes creating user interfaces, graphics, logos, banners, and other types of visual elements. The role requires a high level of creativity, knowledge of design software, and an eye for detail.\n\nKey Responsibilities\n\n• Create designs for web, mobile, print media, and other mediums according to business objectives.\n• <span class=\"highlight\">Develop</span> user experience (UX) and user interface (UI) concepts.\n• Work closely with <span class=\"highlight\">developers</span> and other stakeholders to ensure designs meet brand and technical requirements.\n• Use various software programs, such as Adobe Creative Suite, to create visuals.\n• Ensure designs are cohesive, professional, and in-line with brand guidelines.\n• Present concepts and designs to stakeholders for feedback and approval.\n• Monitor trends in design and technology, staying up to date on latest industry best practices.\n\nQualifications\n• Bachelor’s degree in fine art, graphic design, or related field.\n• 2+ years of experience in a multimedia, graphic design, or web design role.\n• Previous experience with UX and UI design.\n• Knowledgeable in industry trends and technologies.\n• Familiarity with Adobe Creative Suite (Photoshop, Illustrator, InDesign).\n• Excellent eye for detail and aesthetic sense.\n• Strong\n\n**Technical Requirements:**\n1. Extensive knowledge of design principles, techniques, software, and tools.\n2. Strong interpersonal and communication skills.\n3. A creative and innovative design style.\n4. The ability to work well both independently and as part of a team.\n5. Attention to detail and the ability to problem solve.\n6. Demonstrable experience in <span class=\"highlight\">developing</span> user interfaces.\n7. Knowledge of HTML/CSS, <span class=\"highlight\">JavaScript</span>, and other popular web technologies.\n8. Understanding of digital marketing trends and techniques.\n9. Excellent graphic design skills.\n10. Knowledge of user experience (UX) trends and best practices.\n11. Time management skills and the ability to multitask.\n12. A passion for staying up-to-date with the latest trends and technologies in the world of design.\n\n**Task for the Expert:**\nCreate a professional and attractive design for a new web and mobile application. The design should have a modern yet simple aesthetic, with intuitive navigation that both experienced and novice users can easily use. Utilize brand colors, fonts, and layout principles from the company to ensure consistency. Ensure the design works across multiple platforms including desktop, mobile, and tablet. Create detailed specifications that clearly outline how the design should be implemented.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "Graphic Design",
+            "WordPress",
+            "Web Design",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Facebook"
+        ],
+        "amount": 60
+    },
+    {
+        "title": "A Simple React and Draft.js Task ",
+        "description": "Hello fellows! \nI need a React and Draft.js <span class=\"highlight\">developer</span> who can help me with this simple task. \nHere is the requirement. \nhttps://excellent-position-d14.notion.site/React-Sorcerer-Take-Home-Test-55773cfd51d840a793f895e7a007066e\n\nPlease review it and let me know if you can do it. \n\nThank you, \nShanmukha",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "React"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 10
+        }
+    },
+    {
+        "title": "Technical Project Manager with Feed App and React Experience",
+        "description": "I am looking for a seasoned Technical Project Manager to lead the <span class=\"highlight\">development</span> of a cutting-edge enterprise employee engagement and training application. We are a fast-moving startup with a deep commitment to rapid innovation. The ideal candidate will have extensive experience in managing the <span class=\"highlight\">development</span> of feed-based applications and proficiency in React and React Native technologies. Experience with tech startups that have successfully scaled up will be considered a significant plus.\n\nResponsibilities:\n- Oversee the extremely rapid technical <span class=\"highlight\">development</span> of our app/web app, ensuring adherence to high-quality standards and extremely rapid delivery.\n- Collaborate with stakeholders to refine project scope, objectives, and deliverables, focusing on a feed-based application experience.\n- Lead the technical team in implementing React (and potentially React Native) solutions, ensuring best practices are followed for scalability and rapid <span class=\"highlight\">development</span>, while optimizing for extreme speed and concurrency performance of the final solution.\n- Coordinate project schedules, resources, and information, keeping the project on track.\n- Identify and resolve technical issues and roadblocks.\n- Act as a liaison between technical and non-technical stakeholders, ensuring clear communication and understanding.\n- Foster an environment that supports Agile principles and methodologies (Scrum experience is a plus).\n\nQualifications:\n- Proven experience as a Technical Project Manager in software <span class=\"highlight\">development</span>, particularly with feed-based applications.\n- Strong technical background with hands-on experience in React and React Native.\n- Experience working in or with tech startups on a rapid growth trajectory.\n- Excellent project management skills, with proficiency in Agile methodologies.\n- Strong problem-solving ability and analytical mindset.\n- Exceptional communication and leadership skills.\n- Ability to work independently and manage multiple priorities in a dynamic environment.\n- Super adaptability &amp; agility\n\nApplication/Bid Requirements:\n1. Detailed Project Portfolio: Please provide a portfolio of relevant projects you've managed, particularly those involving feed-based applications and React/React Native technologies.\n2. LinkedIn Profile: Include a link to your professional LinkedIn profile.\n3. Cover Letter: A brief cover letter explaining why you are a good fit for this role, including any experience with tech startups.\n4. References: Contact information for at least two professional references, ideally from past projects similar to ours.\n5. Please indicate whether, if offered, you would be open to joining the project as a full-time hire.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Mobile App Development",
+            "Web Application Development",
+            "Agile Software Development",
+            "React",
+            "Technical Project Management",
+            "Project Management",
+            "Enterprise Software",
+            "Startup Consulting",
+            "React Native",
+            "Product Architecture"
+        ],
+        "amount": 75
+    },
+    {
+        "title": "Website <span class=\"highlight\">Development</span> with Full Network Connection",
+        "description": "We are seeking a skilled <span class=\"highlight\">developer</span> to build a website with a full connection to the network. The website should be visually appealing and user-friendly, while also ensuring a smooth and secure connection to the network. The <span class=\"highlight\">developer</span> should have experience in website <span class=\"highlight\">development</span> and network integration. The project requires the following skills:",
+        "duration": "More than 6 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "WordPress",
+            "PHP",
+            "Web Design"
+        ],
+        "amount": 34
+    },
+    {
+        "title": "Ott platform like Netflix ",
+        "description": "I need an ott platform application like netflix.app should be secure and admin or app should be user friendly.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Hybrid App Development",
+            "User Authentication",
+            "Social Media Account Integration",
+            "Dart",
+            "PHP",
+            "CSS 3",
+            "HTML5",
+            "Google Analytics",
+            "SQLite"
+        ],
+        "amount": 25
+    },
+    {
+        "title": "Need Laravel React Expert to create a Shipment and Logistic website. ",
+        "description": "I need someone who can work part-time or full-time to create a shipment website. \nThe website should have a main order page where customers can book a package and then the delivery boy will make a pickup from the sender and drop the shipment to the receiver. \nShould have more than 1+ years of experience in laravel and react. Need APIs to create APP in the future. Please don't give an AI-generated proposal. Briefly explain the process, and how will you proceed. I am also a <span class=\"highlight\">developer</span> and I will be leading this project. \nSample or Demo websites are: \nhttps://www.dhl.com/\nhttps://www.ups.com",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "React",
+            "Laravel",
+            "API"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 1000
+        }
+    },
+    {
+        "title": "Frontend Milestone 7 (HTML, CSS and <span class=\"highlight\">Javascript</span>)",
+        "description": "Hello, \n\nI am building the basic functionalities of my website. \nWe use USD (User centered Webdesign) and have a lot of customisation options. \n\nHere is teh current page that we use: \nhttp://internetl.ink/static_html/split_screen.html\n\nAnd attached is teh new page that needs to be created. \nWho can do this for me? \n\nGreetings, \nOtto",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "CSS",
+            "HTML"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 25
+        }
+    },
+    {
+        "title": "Debugging Woocommerce",
+        "description": "Discussed in upwork chat (shipstation bug, missing orders, etc).",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "WordPress Development",
+            "JavaScript",
+            "WordPress",
+            "WordPress Theme",
+            "WordPress Plugin",
+            "WooCommerce",
+            "WordPress Optimization",
+            "WordPress Bug Fix",
+            "WordPress e-Commerce",
+            "Project Management",
+            "WordPress Migration",
+            "CSS",
+            "PHP",
+            "Web Design",
+            "PSD to WordPress"
+        ],
+        "amount": 900
+    },
+    {
+        "title": "Experienced Next.js <span class=\"highlight\">Developer</span> for Integrating Strapi Database",
+        "description": "We are seeking a highly skilled and experienced Next.js <span class=\"highlight\">developer</span> to integrate Strapi as the backend database for our existing web application. This project involves setting up a robust and efficient connection between our Next.js frontend and Strapi, ensuring seamless data flow and optimal performance.\n\n**Key Responsibilities:**\n\n- Analyze the current architecture of our Next.js web application.\n- Set up and configure Strapi as the backend database solution.\n- Integrate Strapi with our Next.js application, ensuring smooth data retrieval and manipulation.\n- Implement authentication and authorization mechanisms between Next.js and Strapi.\n- Optimize the application for maximum speed and scalability.\n- Ensure data security and compliance with data protection regulations.\n- Collaborate with our team to understand specific requirements and provide technical solutions.\n- Conduct thorough testing to identify and fix bugs or issues.\n- Provide documentation and support for future maintenance and upgrades.\n\n**Required Skills and Qualifications:**\n\n- Proven experience in <span class=\"highlight\">developing</span> applications with Next.js and Strapi.\n- Strong understanding of RESTful APIs and experience in integrating them with Next.js.\n- Proficiency in <span class=\"highlight\">JavaScript</span>, especially ES6 and later versions.\n- Experience with database design, management, and optimization.\n- Familiarity with authentication protocols and security best practices.\n- Strong problem-solving skills and attention to detail.\n- Excellent communication and collaboration abilities.\n\n**Desirable Skills (Not Mandatory):**\n\n- Experience with other headless CMS platforms.\n- Knowledge of front-end technologies like React, HTML5, and CSS3.\n- Familiarity with server-side rendering and static site generation in Next.js.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "CMS Development",
+            "JavaScript",
+            "Landing Page",
+            "API",
+            "API Integration",
+            "React",
+            "Node.js",
+            "Data Modeling"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 60
+        }
+    },
+    {
+        "title": "Home Staging Website Builder",
+        "description": "I need help building a website for home staging. The website should be visually appealing and easy to navigate. The main features should include a portfolio showcasing our staging work and a contact form for inquiries. The website should also be optimized for SEO. The ideal candidate should have experience in web design and <span class=\"highlight\">development</span>, with a focus on creating user-friendly and visually appealing websites. Knowledge of SEO best practices is also preferred. The project requires expertise in the following skills: \n\n- Web design\n- HTML/CSS\n- <span class=\"highlight\">JavaScript</span>\n- SEO optimization",
+        "duration": "More than 6 months",
+        "keywords": [
+            "Web Development",
+            "Adobe Photoshop",
+            "WordPress",
+            "Web Design",
+            "Graphic Design"
+        ],
+        "amount": 30
+    },
+    {
+        "title": "Troubleshoot Facebook Double Authentication",
+        "description": "I am having an issue with my double authentification on Facebook.\n\nNeed someone to help navigate and troubleshoot so I can access my business settings.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "Facebook"
+        ],
+        "amount": 85
+    },
+    {
+        "title": "Figma UI/UX responsive design for a web application",
+        "description": "We are actively seeking a talented UI/UX Designer with specialized skills in Figma and Figma Prototyping for our learning management application. This hourly role is ideal for someone who is adept in using Figma for both high-fidelity design work and dynamic prototyping. The focus will be refining the admin and user interfaces to enhance usability and visual appeal. If you have a strong portfolio demonstrating your expertise in Figma and a user-centric design approach, we invite you to apply.\n\nKey Responsibilities:\nFigma-Based Design: Utilize Figma to create responsive and visually compelling UI designs for admin and user interfaces.\nAdvanced Prototyping: <span class=\"highlight\">Develop</span> interactive prototypes using Figma to demonstrate and test design concepts.\nUser Experience Enhancement: Analyze user feedback and behavior to improve navigation and usability, employing Figma’s collaborative features for iterative design.\nConsistency and Standards: Adhere to design guidelines, leveraging Figma’s shared libraries and components for design consistency across the application.\nIterative Design Feedback: Incorporate stakeholder feedback into designs using Figma’s collaboration tools.\nKeeping Up to Date: Stay informed on the latest features and best practices in Figma and UI/UX design trends.\n\nQualifications:\nProven experience as a UI/UX Designer, particularly with Figma for design and prototyping.\nA strong portfolio showcasing responsive design and prototyping projects in Figma.\nGood understanding of HTML, CSS, and <span class=\"highlight\">JavaScript</span> related to design implementation.\nExcellent visual design skills with a focus on user-system interaction.\nAbility to solve problems creatively and effectively.\nStrong communication skills for effective teamwork and feedback implementation.\nExperience in designing for learning management systems or similar platforms is a plus.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Figma",
+            "Responsive Design",
+            "Wireframing",
+            "Prototyping",
+            "Web Design",
+            "User Flow",
+            "Mobile UI Design",
+            "UX & UI",
+            "User Interface Design",
+            "User Experience Design"
+        ],
+        "amount": 15
+    },
+    {
+        "title": "Senior Mobile and Web Application <span class=\"highlight\">Developer</span> - NativeScript Expertise",
+        "description": "1. **Mobile App <span class=\"highlight\">Development</span>:** Design, build, and maintain high-quality mobile apps using NativeScript, ensuring that these apps are optimized for both performance and usability.\n2. **Web Application <span class=\"highlight\">Development</span>:** Create web versions of mobile applications ensuring seamless functionality across different browsers and devices.\n3. **Cross-platform Integration:** Ensure smooth interoperability of applications across various platforms including iOS, Android, and web.\n4. **Optimization:** <span class=\"highlight\">Develop</span> efficient, scalable, and maintainable code that can handle large user bases and data volumes.\n5. **Collaborate:** Work closely with UX/UI designers, product managers, and other <span class=\"highlight\">developers</span> to implement versatile front-end and back-end solutions.\n6. **Debugging:** Diagnose and fix bugs and performance bottlenecks, ensuring the highest quality application performance.\n7. **Stay Updated:** Keep abreast with the latest in NativeScript, mobile, and web technologies and best practices to ensure our applications remain cutting-edge.\n8. **Mentorship:** Provide guidance and mentorship to junior <span class=\"highlight\">developers</span>, helping them elevate their skills and understanding of application <span class=\"highlight\">development</span>.\n\n**Required Skills &amp; Qualifications:**\n\n1. 5+ Years experience required. \n2. Proven experience with NativeScript and its nuances, including ES6+ syntax.\n3. Demonstrated experience in building large-scale mobile applications with high user engagement.\n4. Proficiency in web <span class=\"highlight\">development</span> technologies such as HTML, CSS, <span class=\"highlight\">JavaScript</span>, and relevant web frameworks.\n5. Familiarity with RESTful APIs to connect applications to back-end services.\n6. Strong understanding of mobile and web application design principles, patterns, and best practices.\n7. Ability to write clean, readable, and maintainable code.\n8. Exceptional problem-solving skills and attention to detail.\n9. Communicate regularly and provide daily commits/updates.\n10. Familiarity with code versioning tools such as Git.\n\n**Desirable Qualifications:**\n\n1. Experience with other mobile <span class=\"highlight\">development</span> frameworks (e.g., React Native, Flutter).\n2. Knowledge of CI/CD processes and tools.",
+        "duration": "3 to 6 months",
+        "keywords": [
+            "Mobile App Development",
+            "NativeScript",
+            "iOS",
+            "Android"
+        ],
+        "amount": 75
+    },
+    {
+        "title": "Adalo Application Bug Fixing",
+        "description": "I am currently facing a minor problem on my App built on Adalo, I started the app two weeks ago, everything was going fine until I started facing complexities in setting up the database, I would need an expert to put me through it.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "Mobile App Development",
+            "Android App Development",
+            "iOS Development",
+            "Smartphone",
+            "Android",
+            "PHP",
+            "iOS",
+            "Java"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 30
+        }
+    },
+    {
+        "title": "Vb.net WebSocket - Client (Public/Private Channel",
+        "description": "<span class=\"highlight\">Develop</span> a client that run on window 64 using vb.net (Prefer)\na Websocket client that connect to the the websocket server via Public/Private Channel with/without authentication(token).\n\nIf authen via token the client must login and obtain the token for the websocket connection.\n\nMust private source code upon acceptance of the the task completion.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "Visual Basic",
+            ".NET Framework",
+            "Standalone Application"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 100
+        }
+    },
+    {
+        "title": "React Native <span class=\"highlight\">developer</span> needed",
+        "description": "Basic requirements:\n\n- Signup with SQLite DB and Google\n- Login with SQLite DB and Google\n- Login as guest\n- Create/Update/View/Delete Task\n- A user can have multiple registrations and Login onto a single device\n- Show reminder\n- The rest of the requirements are in the Figma design.\n- I will share the Figma design with a selected freelancer\n",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Hybrid App Development",
+            "Mobile App Development",
+            "JavaScript",
+            "TypeScript",
+            "Smartphone",
+            "SQLite",
+            "React Native",
+            "Android",
+            "React"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 40
+        }
+    },
+    {
+        "title": "SAP Abap, User exits,  Smart/Adobe Forms, Web dynpro, workflow",
+        "description": "Need to <span class=\"highlight\">develop</span> User exit,\nWeb dynpro pie chart design with fixed coloring\nsmartforms, adobe forms design and modifications",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "SAP",
+            "ABAP"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 30
+        }
+    },
+    {
+        "title": "Sniper Bot Wanted - BSC Pancakeswap sniper • ETH Uniswap sniper",
+        "description": "I need a Blockchain / cryptocurrency bots: BSC Pancakeswap sniper, ETH Uniswap sniper, Dxsale, Unicrypt supported, Bypass anti-whale and anti-bot measures",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Bot Development",
+            "Automation",
+            "Blockchain"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 4000
+        }
+    },
+    {
+        "title": "UI/UX <span class=\"highlight\">Developer</span> (Angular)",
+        "description": "UI/UX <span class=\"highlight\">Developer</span> (Angular)\n\nWe are seeking a talented and experienced UI/UX <span class=\"highlight\">Developer</span> proficient in Angular with a strong understanding of design principles. The ideal candidate will have a minimum of 2-3 years of hands-on experience in Angular-based application <span class=\"highlight\">development</span>, coupled with a keen eye for design aesthetics. This role will involve collaborating with cross-functional teams to create intuitive, visually appealing, and responsive user interfaces.\n\n\nMain Responsibilities:\n\n\n<span class=\"highlight\">Develop</span> user interfaces for web applications using Angular technologies.\n\nCollaborate closely with designers, <span class=\"highlight\">developers</span>, and product managers to translate wireframes, mockups, and prototypes into responsive, high-quality code.\n\nImplement and maintain UI/UX design standards, ensuring consistency across applications.\n\nOptimize application performance and user experience.\n\nConduct usability testing and gather feedback for continuous improvement.\n\nStay updated with industry trends and best practices in UI/UX design and Angular <span class=\"highlight\">development</span>.\n\n\nYour Profile:\n\n\nBachelor's degree in Computer Science, Design, or a related field.\n\n2-3 years of professional experience in Angular <span class=\"highlight\">development</span>.\n\nProficiency in HTML, CSS, <span class=\"highlight\">JavaScript</span>/TypeScript, and related web technologies.\n\nStrong understanding of UI/UX design principles and best practices.\n\nExperience with design tools (e.g., Adobe XD, Sketch, Figma) is a plus.\n\nAbility to efficiently collaborate with cross-functional teams.\n\nExcellent problem-solving skills and attention to detail.\n\nPortfolio showcasing previous Angular-based UI/UX projects is highly desirable.",
+        "duration": "More than 6 months",
+        "keywords": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "TypeScript",
+            "Angular"
+        ],
+        "amount": 30
+    },
+    {
+        "title": "Chrome extension Dev",
+        "description": "Need a chrome extension to send automated IG DMs\n\nExample: https://www.autoigdm.com/\n\nThis will be paid full budget + per bug fix &amp; added feature as we go along so you can easily make 10k+ lifetime from this \n\n",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Google Chrome Extension"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 400
+        }
+    },
+    {
+        "title": "React Native <span class=\"highlight\">developer</span> for IndiGG iOS App",
+        "description": "Introduction\nIndiGG wants to <span class=\"highlight\">develop</span> an iOS app and replicate the features currently created on Android App to the iOS app as well. This will help us gain:\nMore reach especially with International users\nMore quality players\n\nCurrent Android App\nPlay Store link(https://play.google.com/store/search?q=indigg&amp;c=apps&amp;hl=en-IN)\n\nTechnical details of current Android App:\nFeatures:\nLogin\nProfile\nGame discovery\nQuest \nClan \nTournaments \nWallet\nNotification system\n\nThird party integrations\nWeb3Auth for wallet\nWallet connect for external connections\nFirebase notifications\nOTPless whatsapp login for international users\n\nTech stack\nReact native version v0.70.6\n<span class=\"highlight\">Javascript</span>/Typescript\nRedux-toolkit(with thunk middleware)\nREST API to communicate with backend (backend in nodejs)\n\nRequirements for the IoS App\nFeatures\nAll features available on IndiGG Android App till 23rd Dec\nVersions and Devices\nAll variations of the following series\niPhone 11 iPhone SE 2 iPhone 12 iPhone 13 iPhone SE 3 iPhone 14 iPhone 15\niOS Versions -16,17\n\nTechnical Implementation Details\nUpgrade react native version to implement as per new architecture of RN (optional)\nSplash screen and Icons as per all device sizes need to be added\nSome third party packages might need to be replaced or upgraded.\nexpo packages\npatched packages\nSome third party services we are using might need handling as per their IOS native linking\nweb3Auth\nWalletConnect\nDeep-links handling\nnotifications\nOTPLess\nUI/UX handling as per Platform will be needed to be handled\nStatusbar\nSafeAreaViews\nShadows\nFonts\nKeyboard handling\nTextInput behaviours\nTouches handling (Buttons with position absolute)\nAll heights and widths for responsiveness on ios devices\nCurrent designs of the android app features are for 393px x 812px. For iOS we will use 375*667 px (iPhone SE) to cater to maximum users as <span class=\"highlight\">development</span> on a smaller screen size can be easily adapted to a larger screen size while the vice versa has more complications",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "Mobile App Development",
+            "React Native",
+            "iOS"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 5000
+        }
+    },
+    {
+        "title": "Software <span class=\"highlight\">Developer</span>",
+        "description": "Looking for several software engineers to help with the following:\n\n- proof-of-concepts\n- automating tasks\n- <span class=\"highlight\">developing</span> tools and software\n- UX/UI\n- game <span class=\"highlight\">development</span> as well\n- documentation/standards\n\nFor now, this is hourly. We will be looking for funding if we cannot self-fund in the next few months.",
+        "duration": "More than 6 months",
+        "keywords": [
+            "Web Development",
+            "Web Application",
+            "Software Design",
+            "Database Design",
+            "API"
+        ],
+        "amount": 40
+    },
+    {
+        "title": "Integrate Blog in NextJS website",
+        "description": "I need someone to design and integrate cms and integrate blogging in my nextjs website.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "Web Design",
+            "CSS",
+            "HTML"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 60
+        }
+    },
+    {
+        "title": "Software <span class=\"highlight\">Developer</span> for Class II Electronic Pull Tab Games - Slot Machine Experience",
+        "description": "We are searching for a highly skilled Software <span class=\"highlight\">Developer</span> to create Class II electronic pull tab games that capture all the elements of a traditional slot machine experience. These games must retain high-end graphics, engaging sound effects, and features like &quot;Free Spins&quot; while adhering to the Class II classification, where game outcomes are predetermined, not determined by a random number generator (RNG). Our project entails the <span class=\"highlight\">development</span> of 8 games, with the first game needed within a tight timeframe of 7-10 days.\n\nKey Responsibilities:\n\n1) Collaborate closely with our team to conceptualize and design Class II electronic pull tab games that replicate the allure of a traditional slot machine, including high-quality graphics and fun sounds.\n\n2) <span class=\"highlight\">Develop</span> the game logic and functionality to deliver an immersive and exciting gaming experience, ensuring that game outcomes are predetermined.\n\n3) Create an intuitive and visually stunning user interface (UI) that mirrors the aesthetics of a traditional slot machine.\nImplement game graphics, animations, and features like &quot;Free Spins&quot; to enhance player engagement.\n\n4) Conduct thorough testing and debugging to ensure the games run flawlessly and provide a genuine slot machine-like experience.\nOptimize the software for performance and compatibility across various devices and platforms.\n\nRequirements:\n\nProven expertise in game <span class=\"highlight\">development</span>, specifically in Class II electronic pull tab games that replicate the appeal of traditional slots.\nProficiency in coding languages such as Unity, C#, or other relevant technologies.\n\nStrong UI/UX design skills to create an attractive and user-friendly interface that emulates traditional slot machines.\nAbility to deliver outstanding results within tight deadlines.\nExceptional communication skills and the ability to collaborate effectively with cross-functional teams.\n\nPrevious experience on Upwork or similar platforms is a plus.\nIf you are a talented software <span class=\"highlight\">developer</span> capable of delivering Class II electronic pull tab games that maintain the excitement and allure of traditional slots with high-end graphics, engaging sounds, and &quot;Free Spins,&quot; we want to hear from you. Join us in crafting captivating and entertaining games for our audience. Please include your portfolio and relevant work samples in your application.",
+        "duration": "More than 6 months",
+        "keywords": [
+            "Python",
+            "Prototyping",
+            "Microsoft Windows",
+            "Objective-C",
+            "SQLite",
+            "Java",
+            "API",
+            "HTML",
+            "UI Animation",
+            "UI Graphics"
+        ],
+        "amount": 50
+    },
+    {
+        "title": "Automated Image Processing Application",
+        "description": "We are seeking a <span class=\"highlight\">developer</span> to create an application that will handle the automatic processing of incoming images. The primary function of the application will be to pass the images to Stable Diffusion img2img for further processing. The application should be able to receive images in various formats and efficiently pass them to the Stable Diffusion img2img tool. I am running a local installation of Stable Diffusion and would prefer that this application be able to process without the need to send to the internet.\n\nThe <span class=\"highlight\">developer</span> should have experience in the following areas:",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "JavaScript",
+            "Python",
+            "C++",
+            "Java",
+            "Image Processing"
+        ],
+        "amount": 790
+    },
+    {
+        "title": "Wordpress Integration with Stuart APIs",
+        "description": "We need a <span class=\"highlight\">developer</span> to integrate order page in Wordpress with the Stuart API: when an order has a certain status, it will create a delivery booking in Stuart through the API.\nA CMS may be needed to create &quot;My Account&quot; section, &quot;My Orders&quot; section, the customer has a link that allows him to follow his delivery person in real time on a map!\nYou can vary Stuart prices (in% or fixed value)\nYou set the minimum order to offer free Stuart delivery\nYou set the order preparation time\nYou choose the city (ies) available for the delivery method Stuart in the UK cities\nYou select the days and opening hours of the point of sale / shipment\nThe user chooses the type of vehicle and sees each price displayed\nThe customer is notified each time the delivery status is changed\n\nTo learn more about Stuart Api, click the link below.\nhttps://delivery.grubforrk.com",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "API Integration",
+            "WordPress",
+            "PHP",
+            "API"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 100
+        }
+    },
+    {
+        "title": "API <span class=\"highlight\">Development</span> Expert Needed for Troubleshooting and Optimization",
+        "description": "We are seeking an experienced API and Machine Learning <span class=\"highlight\">Development</span> Expert, with a strong background in Swift, Azure cloud services, and OCR technologies. The project involves an API with OCR capabilities that is experiencing performance and functionality issues. The ideal candidate will have expertise in both API troubleshooting and ML-based OCR systems, and a solid understanding of Swift code.\n\nResponsibilities:\nConduct a comprehensive audit of our existing API, with a focus on OCR-related functionalities.\n\nOptimize the API for better performance, including response time improvements and efficient data processing.\n\nTroubleshoot and resolve issues related to both API functionality and ML-based OCR components.\n\nProvide recommendations for long-term API and OCR system improvements.\n\nCollaborate with our <span class=\"highlight\">development</span> team to implement effective solutions.",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "API Development",
+            "Machine Learning",
+            "OCR Algorithm",
+            "Swift",
+            "Azure App Service",
+            "Performance Optimization",
+            "Problem Solving"
+        ],
+        "amount": 50
+    },
+    {
+        "title": "Need Long-Term <span class=\"highlight\">Developer</span> for Wordpress Plugins and Shopify Apps",
+        "description": "I am looking for a <span class=\"highlight\">development</span> partner to work on Wordpress plugins and Shopify apps for me.  Would like to work on a milestone basis - for example, $X fixed fee for each completed plugin/release.  I would also need ongoing support to ensure plugins and apps remain compatible with new Wordpress and Shopify versions.  <span class=\"highlight\">Developer</span> would own the application <span class=\"highlight\">development</span> and support from beginning to end.",
+        "duration": "3 to 6 months",
+        "keywords": [
+            "Web Development",
+            "JavaScript",
+            "Shopify",
+            "WordPress",
+            "PHP",
+            "WooCommerce",
+            "CSS",
+            "HTML",
+            "Web Design",
+            "HTML5"
+        ],
+        "amount": 800
+    },
+    {
+        "title": "Ionic app, forms, authentication.",
+        "description": "I need an ionic mobile app designed &amp; built, that is ready to be compiled into IOS and Android mobile apps. The app includes an authentication process, as well as 7 forms and list views. The backend is already deployed and is using GraphQL, and provides an API SDK in TypeScript with all the functions that are required to build the project.\n\nYou will have to come up with agreeable form fields and perhaps build a few custom components, i.e. represent color in the form view.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "React",
+            "Ionic Framework",
+            "iOS",
+            "Android",
+            "API"
+        ],
+        "amount": {
+            "currencyCode": "USD",
+            "amount": 900
+        }
+    },
+    {
+        "title": "<span class=\"highlight\">Developer</span> Sportsbook API",
+        "description": "Hello,\n\nI have a browser extension, that connects to Flashscore.pt // flashscore.com, and based on the games, the user selects, he/she can also select the type of bet. From this, the user presses the submit and it sends the information to the bookie which will automatically select the games. Currently, this is being done, game by game, through a web scrapping process, therefore the user is actually seeing the bot running on the background (selecting buttons, etc..). \n\nI want to understand if there is a possibility of a headless API, where once I click &quot;Submit&quot; on my extension, the bookie will have automatically the selected games on its account, instead of actually seeing the bot pressing the buttons.\n\nDoes this make sense? Someone expert with APIs should have a better undestanding of this than me.\n\nHave a nice day, thank you.\nJoão Santos",
+        "duration": "Less than 1 month",
+        "keywords": [
+            "API Development",
+            "JavaScript",
+            "Web Development",
+            "API",
+            "API Integration",
+            "RESTful API"
+        ],
+        "amount": 810
+    },
+    {
+        "title": "NFT Expert Pas",
+        "description": "Duties and responsibilities: \n\n• Analyze NFT market trends, evaluate new products and services, and provide insights to the <span class=\"highlight\">development</span> team\n• Manage a portfolio of NFTs and provide detailed analysis and recommendations\n• Collect and document requirements, <span class=\"highlight\">developing</span> project plans, cost estimates, and resources \n• Oversee the implementation of NFT projects, and ensure that guidelines are followed\n• Monitor the performance and success of NFTs and report to senior management\n• Research and <span class=\"highlight\">develop</span> strategies to optimize NFT performance\n• Work alongside software <span class=\"highlight\">developers</span> and marketers to create and test innovative products \n• Keep up to date with the latest <span class=\"highlight\">developments</span> in blockchain technology, digital asset security, and digital asset markets\n• Manage the generation of tokens, exchanges, and integration of NFTs into existing software\n• <span class=\"highlight\">Develop</span> user manuals, system documentation, and training materials\n\n**Technical Requirements:**\n1. Expertise in blockchain technology and Distributed Ledger Technologies (DLT).\n2. Familiarity with the NFT marketplace, tokenization of assets, digital collectibles, and gaming platforms.\n3. Knowledge of Ethereum and its smart contract capabilities, token standards, tokenomics, and DeFi projects.\n4. Understanding of the legal, regulatory, and compliance requirements related to using NFTs.\n5. Ability to assess business needs and advise clients on use-case scenarios and strategies for utilizing NFTs.\n6. Sound understanding of the technical and economic implications of using NFTs.\n7. Understanding of the various smart contracts and dApps related to NFTs. \n8. Knowledge of security best practices when dealing with NFTs.\n9. Excellent communication, problem-solving, and analytical skills.\n10. Ability to explain complex topics to non-technical audiences.\n\n**Task for the Expert:**\n1. Research and <span class=\"highlight\">develop</span> a comprehensive strategy for deploying a Non-Fungible Token (NFT) platform.\n\n2. Analyze the legal requirements necessary for <span class=\"highlight\">developing</span> and operating a successful NFT platform.\n\n3. Explore potential security risks associated with the storage and transactions of NFTs and <span class=\"highlight\">develop</span> mitigation strategies to protect the platform.\n\n4. Implement an effective system to track asset ownership and trading history of each NFT.\n\n5. <span class=\"highlight\">Develop</span> innovative marketing strategies to promote the NFT platform.\n\n6. Monitor existing and upcoming technologies that could increase the usability and value of the platform.\n\n7. Establish partnerships with other industry players to generate traction for the platform.\n\n8. Create tutorials and other educational materials to help users make effective use of the platform.\n\n9. Generate detailed reports to track the performance and adoption of the NFT platform.\n\n10. Utilize analytical and machine learning tools to optimize the platform.",
+        "duration": "1 to 3 months",
+        "keywords": [
+            "JavaScript",
+            "Web Development",
+            "HTML",
+            "PHP",
+            "CSS",
+            "API",
+            "WordPress"
+        ],
+        "amount": 60
+    }
+]
