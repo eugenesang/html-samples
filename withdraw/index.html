@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdraw</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Fredoka:wght@500&family=Manrope:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <!-- <script src="./script.js" defer></script> -->
+</head>
+
+<body>
+    <section id="form-container">
+        <form id="withdraw-form">
+            <h1>Withdraw cash</h1>
+            <div class="amount-input">
+                <label for="amount">
+                    amount
+                </label>
+                <input type="number" name="amount" id="amount" min="0" required step="any">
+            </div>
+            <div class="submit-container">
+                <button>Withdraw</button>
+            </div>
+        </form>
+
+        <div class="bal-btn">
+            <button onclick="openBallanceForm()">Check Ballance</button>
+        </div>
+
+    </section>
+
+    <section id="ballance-container">
+        <form id="ballance-form">
+            <h1>Check Ballance</h1>
+            <div class="amount-input">
+                <label for="amount">
+                    amount
+                </label>
+                <input type="number" name="amount" id="amount" min="0" required placeholder="Account Ballance" step="any">
+            </div>
+            <div class="submit-container">
+                <button>Check Ballance</button>
+            </div>
+        </form>
+
+        <div class="bal-btn">
+            <button onclick="openWithdrawForm()">Withdraw Cash</button>
+        </div>
+    </section>
+
+    <section id="withdrawal-msg">
+        <nav>
+            <div class="dir">
+                <div class="btn bg" onclick="openWithdrawForm()">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+            </div>
+            <div class="dir two">
+                <div class="btn bg active" onclick="openWithdrawForm()">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="btn"><i class="fas fa-sun"></i></div>
+                <div class="btn bg lan"><span>English</span><i class="fas fa-chevron-down"></i></div>
+                <div class="btn bg" onclick="openBallancePage()"><i class="fas fa-user"></i></div>
+            </div>
+        </nav>
+        <dev class="content">
+            <div class="body">
+                <div class="nav">
+                    <div class="right">
+                        <span>Withdraw money</span>
+                    </div>
+                    <div class="left">
+                        <button onclick="openWithdrawForm()">Withdraw</button>
+                    </div>
+                </div>
+                <div class="msg">
+                    <div class="check">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="status">
+                        <h1>
+                            <span>UGX </span>
+                            <span id="withdraw-amount">18,450,000.15</span>
+                        </h1>
+                        <h2>Withdraw request successful</h2>
+                        <h3>The withdraw request has been sent successfully</h3>
+                        <div class="tid">
+                            <h3>Transaction ID:</h3>
+                            <h3 id="tid">2784562378495</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button onclick="openWithdrawForm()">
+                        <span>
+                            <i class="fas fa-plus"></i>
+                        </span>
+                        <span>Another Withdrawal</span>
+                    </button>
+                </div>
+            </div>
+        </dev>
+    </section>
+    <section id="ballance-msg">
+        <nav>
+            <h3>Summary</h3>
+            <h4>Total Ballance</h4>
+            <div class="close" onclick="openBallanceForm()">
+                <i class="fas fa-xmark"></i>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="sm">
+                <span>Total balance</span>
+            </div>
+            <div class="lg">
+                <h1>
+                    <span>UGX</span>
+                    <span class="sum-bal">857,342,448.36</span>
+                </h1>
+            </div>
+        </div>
+        <div class="section two">
+            <h4>Available to trade</h4>
+            <p>The amount of your total balance that is available to buy, sell, convert and earn</p>
+            <h3>
+                <span>UGX</span>
+                <span class="sum-bal">857,342,448.36</span>
+            </h3>
+        </div>
+        <div class="section three">
+            <h4>Available to cash out</h4>
+            <p>The amount of your total balance that is available to spend, send, withdraw or use as collateral for
+                borrowing.</p>
+            <h3>
+                <span>UGX</span>
+                <span class="sum-bal">857,342,448.36</span>
+            </h3>
+        </div>
+    </section>
+</body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: manrope;
+    }
+
+    button,
+    label,
+    span {
+        font-family: fredoka;
+    }
+
+    span {
+        color: rgb(44, 44, 44);
+    }
+
+    section#form-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    section#form-container form {
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 10px auto;
+        border-radius: 5px;
+        border: 1px solid green;
+        padding: 10px;
+        display: grid;
+        gap: 20px;
+    }
+
+    section#form-container form h1 {
+        text-align: center;
+        margin: 5px;
+    }
+
+    section#form-container form .amount-input {
+        margin: 10px;
+        border-radius: 16px;
+        box-shadow: 0 2px 6px 0 rgb(196, 196, 196);
+        padding: 0px 10px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 5px;
+    }
+
+    section#form-container form .amount-input label,
+    section#form-container form .amount-input input {
+        font-size: large;
+    }
+
+    section#form-container form .amount-input label {
+        border-right: 1px solid gray;
+        padding: 4px 8px;
+    }
+
+    section#form-container form .amount-input input {
+        font-family: abel;
+        font-weight: bold;
+        outline: none;
+        border: none;
+    }
+
+    section#form-container form .submit-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section#form-container form .submit-container button {
+        min-width: 75px;
+        padding: 8px 16px;
+        background-color: blue;
+        color: white;
+        border-radius: 16px;
+        border: 1px solid blue;
+        text-transform: uppercase;
+    }
+
+    section#form-container .bal-btn {
+        min-width: 60vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section#form-container .bal-btn button {
+        padding: 5px;
+    }
+
+    section#ballance-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    section#ballance-container form {
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 10px auto;
+        border-radius: 5px;
+        border: 1px solid green;
+        padding: 10px;
+        display: grid;
+        gap: 20px;
+    }
+
+    section#ballance-container form h1 {
+        text-align: center;
+        margin: 5px;
+    }
+
+    section#ballance-container form .amount-input {
+        margin: 10px;
+        border-radius: 16px;
+        box-shadow: 0 2px 6px 0 rgb(196, 196, 196);
+        padding: 0px 10px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 5px;
+    }
+
+    section#ballance-container form .amount-input label,
+    section#ballance-container form .amount-input input {
+        font-size: large;
+    }
+
+    section#ballance-container form .amount-input label {
+        border-right: 1px solid gray;
+        padding: 4px 8px;
+    }
+
+    section#ballance-container form .amount-input input {
+        font-family: abel;
+        font-weight: bold;
+        outline: none;
+        border: none;
+    }
+
+    section#ballance-container form .submit-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section#ballance-container form .submit-container button {
+        min-width: 75px;
+        padding: 8px 16px;
+        background-color: blue;
+        color: white;
+        border-radius: 16px;
+        border: 1px solid blue;
+        text-transform: uppercase;
+    }
+
+    section#ballance-container .bal-btn {
+        min-width: 60vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section#ballance-container .bal-btn button {
+        padding: 5px;
+    }
+
+    section#withdrawal-msg nav {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: whitesmoke;
+        border-bottom: 1px solid gray;
+    }
+
+    section#withdrawal-msg nav .bg {
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 8px;
+        border-radius: 4px;
+        background-color: rgb(210, 210, 210);
+    }
+
+    section#withdrawal-msg nav .bg.active {
+        background-color: rgb(0, 83, 200);
+        color: white;
+    }
+
+    section#withdrawal-msg nav .dir.two {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    section#withdrawal-msg nav .dir.two .lan {
+        display: flex;
+        gap: 5px;
+    }
+
+    section#withdrawal-msg .content {
+        background-color: whitesmoke;
+    }
+
+    section#withdrawal-msg .content .body {
+        text-align: center;
+        background-color: white;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 20px auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px 0 rgb(196, 196, 196);
+    }
+
+    section#withdrawal-msg .content .body .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px;
+    }
+
+    section#withdrawal-msg .content .body .nav button {
+        color: white;
+        background-color: #2880fc;
+        padding: 5px 20px;
+        border-radius: 5px;
+        border: 1px solid #2880fc;
+    }
+
+    section#withdrawal-msg .content .body .msg .check {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 40px auto;
+        padding: 10px;
+        font-size: 60px;
+        border-radius: 50px;
+        border: 5px solid #aacdfd;
+        color: #2880fc;
+    }
+
+    section#withdrawal-msg .content .body .msg .status h1 {
+        font-size: 2rem;
+    }
+
+    section#withdrawal-msg .content .body .msg .status h1 span {
+        color: darkblue;
+    }
+
+    section#withdrawal-msg .content .body .msg .status h3 {
+        font-size: 1rem;
+    }
+
+    section#withdrawal-msg .content .body .msg .status h2,
+    section#withdrawal-msg .content .body .msg .status h3 {
+        color: rgb(77, 77, 77);
+        margin: 20px;
+    }
+
+    section#withdrawal-msg .content .body .msg .status .tid {
+        margin: 20px;
+    }
+
+    section#withdrawal-msg .content .body .msg .status .tid h3 {
+        margin: 5px;
+    }
+
+    section#withdrawal-msg .content .body .msg .status .tid h3#tid {
+        color: black;
+    }
+
+    section#withdrawal-msg .content .body .footer button {
+        display: flex;
+        width: -moz-fit-content;
+        width: fit-content;
+        gap: 10px;
+        align-items: center;
+        margin: 10px auto;
+        padding: 8px 16px;
+        border-radius: 8px;
+        border: 1px solid #2880fc;
+        background-color: #2880fc;
+    }
+
+    section#withdrawal-msg .content .body .footer button span {
+        color: white;
+    }
+
+    section#ballance-msg {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    section#ballance-msg h4 {
+        font-family: fredoka;
+        font-weight: 400;
+    }
+
+    section#ballance-msg nav {
+        position: relative;
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+
+    section#ballance-msg nav h3 {
+        margin-bottom: 10px;
+    }
+
+    section#ballance-msg nav h4 {
+        color: rgb(90, 90, 90);
+    }
+
+    section#ballance-msg nav .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        color: #2880fc;
+        background-color: #dedede;
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    section#ballance-msg .section {
+        border-top: 1px solid gray;
+        padding: 10px 20px;
+    }
+
+    section#ballance-msg .section p {
+        font-family: manrope;
+        color: rgb(90, 90, 90);
+        font-size: small;
+    }
+
+    section#ballance-msg .section .sm span {
+        color: #2880fc;
+    }
+
+    section#ballance-msg .section h1 {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    section#ballance-msg .section h1 span {
+        color: darkblue;
+        font-family: abel;
+    }
+
+    section#ballance-msg .section h3 {
+        margin: 5px 0px;
+    }
+
+    section#ballance-msg .section h3 span {
+        color: rgb(84, 84, 255);
+        font-family: abel;
+    }
+
+    section#ballance-msg .section h4 {
+        margin: 8px 0px;
+        color: #2880fc;
+    }
+
+    /*# sourceMappingURL=styles.css.map */
+</style>
+
+<script>
+    // Globals
+
+    var ballance = 857342000.16;
+    var withdrawal = 5857342000.16;
+
+
+    /**
+     * 
+     * @param {HTMLElement} element 
+     */
+    function closePage(element) {
+        element.classList.add('hidden')
+    }
+
+    /**
+     * 
+     * @param {HTMLElement} element 
+     */
+    function openPage(element) {
+        element.classList.remove('hidden')
+    }
+
+    const page = {
+        one: document.getElementById('form-container'),
+        two: document.getElementById('withdrawal-msg'),
+        three: document.getElementById('ballance-container'),
+        four: document.getElementById('ballance-msg'),
+    }
+
+    function openWithdrawForm() {
+        const { one, two, three, four } = page;
+
+        for (let p of [two, three, four]) {
+            closePage(p);
+        }
+
+        openPage(one)
+    }
+
+    function openBallanceForm() {
+        const { one, two, three, four } = page;
+
+        for (let p of [two, one, four]) {
+            closePage(p);
+        }
+
+        openPage(three)
+    }
+
+    function openWithdrawPage() {
+        const { one, two, three, four } = page;
+
+        for (let p of [one, three, four]) {
+            closePage(p);
+        }
+
+        openPage(two)
+    }
+
+    function openBallancePage() {
+        const { one, two, three, four } = page;
+
+        for (let p of [one, two, three]) {
+            closePage(p);
+        }
+
+        openPage(four)
+    }
+
+    const wForm = document.querySelector('form#withdraw-form');
+
+    wForm.addEventListener('submit', e => {
+        e.preventDefault();
+        const amount = wForm.querySelector('input').value;
+        const amountContainer = document.getElementById('withdraw-amount');
+        const tidContainer = document.getElementById('tid');
+
+        const tid = parseInt((996 + Math.random()) * 10 ** 10);
+
+        amountContainer.innerHTML = parseFloat(parseFloat(amount).toFixed(2)).toLocaleString();
+        tidContainer.innerHTML = tid;
+
+        openWithdrawPage();
+    })
+
+
+    const bForm = document.getElementById('ballance-form');
+
+    bForm.addEventListener('submit', e => {
+        e.preventDefault();
+        const amount = bForm.querySelector('input').value;
+
+        const balElements = document.querySelectorAll('.sum-bal');
+        balElements.forEach(element => {
+            element.innerHTML = parseFloat(parseFloat(amount).toFixed(2)).toLocaleString();
+        })
+        openBallancePage();
+    })
+
+
+    openWithdrawForm();
+    //openWithdrawPage();
+    //openBallancePage();
+</script>
+
+</html>
