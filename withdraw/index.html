@@ -27,6 +27,12 @@
                 </label>
                 <input type="number" name="amount" id="amount" min="0" required step="any">
             </div>
+            <div class="amount-input">
+                <label for="currency">
+                    currency
+                </label>
+                <input type="text" name="currency" id="currency" required value="UGX">
+            </div>
             <div class="submit-container">
                 <button>Withdraw</button>
             </div>
@@ -46,6 +52,12 @@
                     amount
                 </label>
                 <input type="number" name="amount" id="amount" min="0" required placeholder="Account Ballance" step="any">
+            </div>
+            <div class="amount-input">
+                <label for="currency">
+                    currency
+                </label>
+                <input type="text" name="currency" id="currency" required value="UGX">
             </div>
             <div class="submit-container">
                 <button>Check Ballance</button>
@@ -89,14 +101,14 @@
                     </div>
                     <div class="status">
                         <h1>
-                            <span>UGX </span>
-                            <span id="withdraw-amount">18,450,000.15</span>
+                            <span class="w-cur">UGX </span>
+                            <span id="withdraw-amount" class="num">18,450,000.15</span>
                         </h1>
                         <h2>Withdraw request successful</h2>
                         <h3>The withdraw request has been sent successfully</h3>
                         <div class="tid">
                             <h3>Transaction ID:</h3>
-                            <h3 id="tid">2784562378495</h3>
+                            <h3 id="tid" class="num">2784562378495</h3>
                         </div>
                     </div>
                 </div>
@@ -125,7 +137,7 @@
             </div>
             <div class="lg">
                 <h1>
-                    <span>UGX</span>
+                    <span class="sum-cur">UGX</span>
                     <span class="sum-bal">857,342,448.36</span>
                 </h1>
             </div>
@@ -134,7 +146,7 @@
             <h4>Available to trade</h4>
             <p>The amount of your total balance that is available to buy, sell, convert and earn</p>
             <h3>
-                <span>UGX</span>
+                <span class="sum-cur">UGX</span>
                 <span class="sum-bal">857,342,448.36</span>
             </h3>
         </div>
@@ -143,7 +155,7 @@
             <p>The amount of your total balance that is available to spend, send, withdraw or use as collateral for
                 borrowing.</p>
             <h3>
-                <span>UGX</span>
+                <span class="sum-cur">UGX</span>
                 <span class="sum-bal">857,342,448.36</span>
             </h3>
         </div>
@@ -174,6 +186,15 @@
 
     span {
         color: rgb(44, 44, 44);
+    }
+
+    .w-cur, .sum-cur{
+        text-transform: uppercase;
+        font-family: abel;
+    }
+
+    .num{
+        font-family: abel;
     }
 
     section#form-container {
@@ -611,13 +632,16 @@
 
     wForm.addEventListener('submit', e => {
         e.preventDefault();
-        const amount = wForm.querySelector('input').value;
+        const amount = wForm.querySelector('input#amount').value;
+        const currency = wForm.querySelector('input#currency').value
         const amountContainer = document.getElementById('withdraw-amount');
+
         const tidContainer = document.getElementById('tid');
 
         const tid = parseInt((996 + Math.random()) * 10 ** 10);
 
         amountContainer.innerHTML = parseFloat(parseFloat(amount).toFixed(2)).toLocaleString();
+        document.querySelector('.w-cur').innerHTML = currency;
         tidContainer.innerHTML = tid;
 
         openWithdrawPage();
@@ -629,10 +653,16 @@
     bForm.addEventListener('submit', e => {
         e.preventDefault();
         const amount = bForm.querySelector('input').value;
+        const currency = bForm.querySelector('input#currency').value
 
         const balElements = document.querySelectorAll('.sum-bal');
         balElements.forEach(element => {
             element.innerHTML = parseFloat(parseFloat(amount).toFixed(2)).toLocaleString();
+        })
+
+        const currencyElements = document.querySelectorAll('.sum-cur');
+        currencyElements.forEach(element=>{
+            element.innerHTML = currency;
         })
         openBallancePage();
     })
