@@ -33,6 +33,14 @@
                 </label>
                 <input type="text" name="currency" id="currency" required value="UGX">
             </div>
+            <div class="amount-input">
+                <label for="wDate">Date</label>
+                <input type="date" name="date" id="wDate" required>
+            </div>
+            <div class="amount-input">
+                <label for="wTime">Time</label>
+                <input type="time" name="time" id="wTime" required>
+            </div>
             <div class="submit-container">
                 <button>Withdraw</button>
             </div>
@@ -58,6 +66,14 @@
                     currency
                 </label>
                 <input type="text" name="currency" id="currency" required value="UGX">
+            </div>
+            <div class="amount-input">
+                <label for="balDate">Date</label>
+                <input type="date" name="date" id="balDate" required>
+            </div>
+            <div class="amount-input">
+                <label for="balTime">Time</label>
+                <input type="time" name="time" id="balTime" required>
             </div>
             <div class="submit-container">
                 <button>Check Ballance</button>
@@ -110,6 +126,10 @@
                             <h3>Transaction ID:</h3>
                             <h3 id="tid" class="num">2784562378495</h3>
                         </div>
+                        <div class="t-date">
+                            <h3 id="t-date" class="num"></h3>
+                        </div>
+
                     </div>
                 </div>
                 <div class="footer">
@@ -131,6 +151,14 @@
                 <i class="fas fa-xmark"></i>
             </div>
         </nav>
+        <div class="section">
+            <div class="sm">
+                <span>Date: </span>
+            </div>
+            <div class="sm">
+                <strong class="bal-date num"></strong>
+            </div>
+        </div>
         <div class="section">
             <div class="sm">
                 <span>Total balance</span>
@@ -561,6 +589,35 @@
 </style>
 
 <script>
+// on page load events
+(()=>{
+    function addZero(num){
+        if(num < 10){
+            return `0${num}`;
+        }
+        return `${num}`
+    }
+
+    const date = new Date();
+
+    const year = date.getFullYear();
+    let month = addZero(date.getMonth() + 1);
+    let day = addZero(date.getDate());
+    let hour = addZero(date.getHours());
+    let minute = addZero(date.getMinutes());
+
+
+
+    const timeString = `${hour}:${minute}`;
+    const dateString = `${year}-${month}-${day}`
+
+    document.getElementById('wTime').value = timeString;
+    document.getElementById('wDate').value = dateString;
+
+    document.getElementById('balDate').value = dateString;
+    document.getElementById('balTime').value = timeString;
+})()
+
     // Globals
 
     var ballance = 857342000.16;
@@ -637,14 +694,24 @@
         const amount = wForm.querySelector('input#amount').value;
         const currency = wForm.querySelector('input#currency').value
         const amountContainer = document.getElementById('withdraw-amount');
+        const _date = new Date(document.getElementById('wDate').value);
+        const time = document.getElementById('wTime').value;
+
+        const date = _date.toDateString();
+
+
 
         const tidContainer = document.getElementById('tid');
+        const dateOutput = document.getElementById('t-date');
 
         const tid = parseInt((996 + Math.random()) * 10 ** 10);
+        dateOutput.innerHTML = `${date}, ${time}`;
 
         amountContainer.innerHTML = parseFloat(parseFloat(amount).toFixed(2)).toLocaleString();
         document.querySelector('.w-cur').innerHTML = currency;
         tidContainer.innerHTML = tid;
+
+        
 
         openWithdrawPage();
     })
@@ -666,6 +733,14 @@
         currencyElements.forEach(element=>{
             element.innerHTML = currency;
         })
+
+        const _date = new Date(document.getElementById('balDate').value);
+        const time = document.getElementById('balTime').value;
+
+        const date = _date.toDateString();
+
+        document.querySelector('.bal-date').innerHTML = `${date}, ${time}`
+        
         openBallancePage();
     })
 
